@@ -69,8 +69,8 @@
 	[Type] == "Cartographer's Chisel" # 	[StashItem]	 == "true"	//	//製圖釘	拾取且存倉																						
 	[Type] == "Orb of Annulment"         # 	[StashItem]	 == "true"	//	//無效石	拾取且存倉																						
 //	[Type] == "Orb of Binding"                 # 	[StashItem]	 == "true"	//	//束縛石	不撿不存倉																						
-//	[Type] == "Orb of Horizons"         # 	[StashItem]	 == "true"	//	//地平石	不撿不存倉																						
-//	[Type] == "Harbinger's Orb"         # 	[StashItem]	 == "true"	//	//神諭石	不撿不存倉																						
+	[Type] == "Orb of Horizons"         # 	[StashItem]	 == "true"	//	//地平石	不撿不存倉																						
+	[Type] == "Harbinger's Orb"         # 	[StashItem]	 == "true"	//	//神諭石	不撿不存倉																						
 //	[Type] == "Engineer's Orb"                 # 	[StashItem]	 == "true"	//	//工程石	不撿不存倉																						
 	[Type] == "Ancient Orb"                 # 	[StashItem]	 == "true"	//	//古變石	拾取且存倉																						
 	[Type] == "Annulment Shard"         # 	[StashItem]	 == "true"	//	//無效石碎片	拾取且存倉																						
@@ -878,8 +878,8 @@
 //	[Type] == "Champion Kite Shield"                # [ChanceItem] == "true" && [Rarity] == "Normal" // AA盾			//	//自動撿鬥士鳶盾點AA盾	關閉中																						
 	//// 18F 藥水（預設關閉）			//																								
 				//																								
-//	[Type] == "Quicksilver Flask" # 	[StashItem]	 == "true" 	//	//水銀藥劑	不撿不存倉																						
-//	[Type] == "Gold Flask"     # 	[StashItem]	 == "true" 	//	//黃金藥劑	不撿不存倉																						
+	[Type] == "Quicksilver Flask" # 	[StashItem]	 == "true" 	//	//水銀藥劑	不撿不存倉																						
+	[Type] == "Gold Flask"     # 	[StashItem]	 == "true" 	//	//黃金藥劑	不撿不存倉																						
 				//																								
 //	 [Type] == "Small Life Flask" # 	[StashItem]	 == "true" 	//	//小型生命藥劑	不撿不存倉																						
 //	 [Type] == "Medium Life Flask" # 	[StashItem]	 == "true" 	//	//生命藥劑（中）	不撿不存倉																						
@@ -891,7 +891,7 @@
 //	 [Type] == "Sacred Life Flask" # 	[StashItem]	 == "true" 	//	//聖語生命藥劑	不撿不存倉																						
 //	 [Type] == "Hallowed Life Flask" # 	[StashItem]	 == "true" 	//	//祝福生命藥劑	不撿不存倉																						
 //	 [Type] == "Sanctified Life Flask" # 	[StashItem]	 == "true" 	//	//聖化生命藥劑	不撿不存倉																						
-//	 [Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//不朽生命藥劑	不撿不存倉																						
+	 [Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//不朽生命藥劑	不撿不存倉																						
 //	 [Type] == "Eternal Life Flask" # 	[StashItem]	 == "true" 	//	//永恆生命藥劑	不撿不存倉																						
 //	 [Type] == "Small Mana Flask" # 	[StashItem]	 == "true" 	//	//小型魔力藥劑	不撿不存倉																						
 //	 [Type] == "Medium Mana Flask" # 	[StashItem]	 == "true" 	//	//中型魔力藥劑	不撿不存倉																						
@@ -1072,7 +1072,7 @@
 	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [attack_maximum_added_fire_damage] >= "1" && [ForceSellItem] == "true" // The Ignomon / The Effigon				//帝金護身符	拾取且售出																						
 	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [life_regeneration_per_minute_%_while_frozen] >= "1" && [ForceSellItem] == "true" // Winterheart				//冬之心 帝金護身符	拾取且售出																						
 	[Type] == "Jade Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Hyrri's Truth / Karui Ward / Rashkaldor's Patience / / The Halcyon / Willowgift				//柳木之禮 翠玉護身符	拾取且售出																						
-	[Type] == "Jade Amulet" && [Rarity] == "Unique" # [local_display_grants_skill_accuracy_crits_aura_level] >= "1" && [ForceSellItem] == "true" // Hyrri's Truth				//西里的真理 翠玉護身符	拾取且售出																						
+//	[Type] == "Jade Amulet" && [Rarity] == "Unique" # [local_display_grants_skill_accuracy_crits_aura_level] >= "1" && [ForceSellItem] == "true" // Hyrri's Truth				//西里的真理 翠玉護身符	拾取且售出																						
 	[Type] == "Jade Amulet" && [Rarity] == "Unique" # [projectile_damage_+%] >= "1" && [ForceSellItem] == "true" // Karui Ward				//卡魯的戰徽 翠玉護身符	拾取且售出																						
 	[Type] == "Jade Amulet" && [Rarity] == "Unique" # [cannot_gain_power_charges] >= "1" && [ForceSellItem] == "true" // Rashkaldor's Patience				//翠玉護身符	拾取且售出																						
 	[Type]== "Zodiac Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Hyrri's Ire / The Perfect Form				//完美姿態 星辰皮甲	拾取且售出																						
@@ -1310,7 +1310,7 @@
 	[Type] == "Wool Shoes" && [Rarity] == "Unique" # [base_avoid_freeze_%] >= "1" && [ForceSellItem] == "true" // Wanderlust				//苦行之履 羊毛之鞋	拾取且售出																						
 	[Type]== "Coral Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Bloodboil / Kaom's Sign / Kaom's Way / Sibyl's Lament / Winterweave				//冬織 珊瑚戒指	拾取且售出																						
 	[Type] == "Bronzescale Boots" && [Rarity] == "Unique" # [local_display_trigger_level_x_rain_of_arrows_on_bow_attack] >= "1" && [ForceSellItem] == "true" // Lioneye's Paws				//獅眼的鬥志 銅影長靴	拾取且售出																						
-	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [max_frenzy_charges] >= "1" && [ForceSellItem] == "true" // Darkray Vectors				//暗雷 龍鱗長靴	拾取且售出																						
+//	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [max_frenzy_charges] >= "1" && [ForceSellItem] == "true" // Darkray Vectors				//暗雷 龍鱗長靴	拾取且售出																						
 	[Type] == "Hydrascale Boots" && [Rarity] == "Unique" # [local_display_grants_skill_bird_aspect_level] >= "1" && [ForceSellItem] == "true" // Saqawal's Talons				//斯卡沃鷹爪 火蝮鱗長靴	拾取且售出																						
 	[Type] == "Ironscale Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Dusktoe				//迎暮 鐵影長靴	拾取且售出																						
 	[Type] == "Ironscale Boots" && [Rarity] == "Unique" # [chaos_resistance_+_while_using_flask] >= "1" && [ForceSellItem] == "true" // Dusktoe				//迎暮 鐵影長靴	拾取且售出																						
@@ -1420,7 +1420,7 @@
 	[Type]== "Carnal Armour" && [Rarity] == "Unique" # [local_has_X_abyss_sockets] >= "1" && [ForceSellItem] == "true" // Shroud of the Lightless				//禁禮之甲	拾取且售出																						
 	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [thaumaturgy_rotation_active] >= "1" && [ForceSellItem] == "true" // Malachai's Mark				//瑪拉凱之面 暗殺者護手	拾取且售出																						
 	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [lose_power_charge_each_second_if_not_detonated_mines_recently] >= "1" && [ForceSellItem] == "true" // Machina Mitts				//詭計魔手 暗殺者護手	拾取且售出																						
-	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [local_display_socketed_gems_get_added_lightning_damage_level] >= "1" && [ForceSellItem] == "true" // Thunderfist				//轟天雷 暗殺者護手	拾取且售出																						
+//	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [local_display_socketed_gems_get_added_lightning_damage_level] >= "1" && [ForceSellItem] == "true" // Thunderfist				//轟天雷 暗殺者護手	拾取且售出																						
 	[Type] == "Strapped Mitts" && [Rarity] == "Unique" # [unique_facebreaker_unarmed_physical_damage_+%_final] >= "1" && [ForceSellItem] == "true" // Facebreaker				//毀面者 扣環護手	拾取且售出																						
 	[Type] == "Strapped Mitts" && [Rarity] == "Unique" # [unique_facebreaker_unarmed_physical_damage_+%_final] < "780" && [ForceSellItem] == "true" // Well rolled Facebreaker				//扣環護手	拾取且售出																						
 	[Type] == "Strapped Mitts" && [Rarity] == "Unique" # [unique_facebreaker_unarmed_physical_damage_+%_final] < "800" && [ForceSellItem] == "true" // Perfect Facebreaker				//扣環護手	拾取且售出																						
@@ -1435,7 +1435,7 @@
 	[Type] == "Close Helmet" && [Rarity] == "Unique" # [minions_gain_your_strength] >= "1" && [ForceSellItem] == "true" // The Baron				//男爵 護面盔	拾取且售出																						
 	[Type] == "Eternal Burgonet" && [Rarity] == "Unique" # [local_physical_damage_reduction_rating_+%] >= "1" && [ForceSellItem] == "true"				// 篡位者的懺悔	拾取且售出																						
 //	// //																											
-	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken_+%] > "44" && [melee_weapon_critical_strike_multiplier_+] < "120" && [ForceSellItem] == "true" // Abyssus				//深淵之喚 艾茲麥堅盔	拾取且售出																						
+//	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken_+%] > "44" && [melee_weapon_critical_strike_multiplier_+] < "120" && [ForceSellItem] == "true" // Abyssus				//深淵之喚 艾茲麥堅盔	拾取且售出																						
 	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken_+%] <= "40" && [melee_weapon_critical_strike_multiplier_+] >= "120" && [ForceSellItem] == "true" // Perf Abyssus				//艾茲麥堅盔	拾取且售出																						
 	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [local_item_can_have_x_additional_enchantments] >= "1" && [ForceSellItem] == "true" // Cowl of the Thermophile				//艾茲麥堅盔	拾取且售出																						
 	[Type] == "Iron Hat" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Ezomyte Hold / Ezomyte Peak / Tear of Entropy				//亂世之淚 粗鐵盔	拾取且售出																						
@@ -1720,7 +1720,7 @@
 	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [cold_damage_+%_while_off_hand_is_empty] >= "1" && [ForceSellItem] == "true" // White Wind				//白風 帝國雙刃匕	拾取且售出																						
 	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [cold_damage_+%_while_off_hand_is_empty] < "200" && [ForceSellItem] == "true" // Perf Cold Damage% White Wind				//帝國雙刃匕	拾取且售出																						
 	[Type] == "Platinum Kris" && [Rarity] == "Unique" # [local_poison_on_critical_strike_chance_%] >= "1" && [ForceSellItem] == "true" // Mark of the Doubting Knight				//白金波刃	拾取且售出																						
-	[Type] == "Royal Skean" && [Rarity] == "Unique" # [spells_have_culling_strike] >= "1" && [ForceSellItem] == "true" // Heartbreaker				//裂心刃 皇家雙刃匕	拾取且售出																						
+//	[Type] == "Royal Skean" && [Rarity] == "Unique" # [spells_have_culling_strike] >= "1" && [ForceSellItem] == "true" // Heartbreaker				//裂心刃 皇家雙刃匕	拾取且售出																						
 	[Type] == "Slaughter Knife" && [Rarity] == "Unique" # [unique_spread_poison_to_nearby_enemies_on_kill] >= "1" && [ForceSellItem] == "true" // Bino's Kitchen Knife				//殘暴短匕	拾取且售出																						
 //預設//	[Type]== "Ezomyte Spiked Shield" && [Rarity] == "Unique" # [local_display_cast_lightning_aegis_on_gain_skill] >= "1" && [ForceSellItem] == "true" // Perepiteia				//極轉電刑 艾茲麥刺盾	拾取且存倉																						
 	[Type]== "Mirrored Spiked Shield" && [Rarity] == "Unique" # [chance_to_be_shocked_%] >= "1" && [ForceSellItem] == "true" // Font of Thunder				//鋼鏡刺盾	拾取且售出																						
@@ -1747,7 +1747,7 @@
 	[Type] == "Grinning Fetish" && [Rarity] == "Unique" # [summoned_skeletons_have_avatar_of_fire] >= "1" && [ForceSellItem] == "true" // Earendel's Embrace				//伊爾多恩的擁抱 遠古之祭	拾取且售出																						
 	[Type] == "Iron Sceptre" && [Rarity] == "Unique" # [damage_+%_vs_frozen_enemies] >= "1" && [ForceSellItem] == "true" // Spine of the First Claimant				//冷鐵權杖	拾取且售出																						
 	[Type] == "Karui Sceptre" && [Rarity] == "Unique" # [gain_unholy_might_for_4_seconds_on_crit] >= "1" && [ForceSellItem] == "true" // Death's Hand				//死神之手 卡魯權杖	拾取且售出																						
-	[Type] == "Platinum Sceptre" && [Rarity] == "Unique" # [damage_+%_vs_hindered_enemies] >= "1" && [ForceSellItem] == "true" // Singularity				//奇異 白金權杖	拾取且售出																						
+//	[Type] == "Platinum Sceptre" && [Rarity] == "Unique" # [damage_+%_vs_hindered_enemies] >= "1" && [ForceSellItem] == "true" // Singularity				//奇異 白金權杖	拾取且售出																						
 	[Type] == "Opal Sceptre" && [Rarity] == "Unique" # [local_display_grants_skill_scorching_ray_level] >= "1" && [ForceSellItem] == "true" // Balefire				//野火 靈石權杖	拾取且售出																						
 	[Type] == "Ritual Sceptre" && [Rarity] == "Unique" # [attack_minimum_added_fire_damage_per_10_strength] >= "1" && [ForceSellItem] == "true" // Brutus' Lead Sprinkler				//祭儀權杖	拾取且售出																						
 	[Type] == "Royal Sceptre" && [Rarity] == "Unique" # [summoned_phantasms_grant_buff] >= "1" && [ForceSellItem] == "true" // The Black Cane				//黑藤 皇家權杖	拾取且售出																						
@@ -1766,7 +1766,7 @@
 	[Type] == "Great Mallet" && [Rarity] == "Unique" # [local_weapon_always_crit] >= "1" && [ForceSellItem] == "true" // Trypanon				//裂顱 剛猛巨錘	拾取且售出																						
 	[Type] == "Imperial Maul" && [Rarity] == "Unique" # [local_display_socketed_gems_supported_by_level_x_endurance_charge_on_stun] >= "1" && [ForceSellItem] == "true" // Tidebreaker				//破浪者 帝國重錘	拾取且售出																						
 	[Type] == "Jagged Maul" && [Rarity] == "Unique" # [explode_on_kill_%_fire_damage_to_deal] >= "1" && [ForceSellItem] == "true" // Quecholli				//重擊之錘 狼牙重錘	拾取且售出																						
-	[Type] == "Karui Maul" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Marohi Erqi				//爾奇的巨靈之錘 卡魯重錘	拾取且售出																						
+//	[Type] == "Karui Maul" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Marohi Erqi				//爾奇的巨靈之錘 卡魯重錘	拾取且售出																						
 	[Type] == "Meatgrinder" && [Rarity] == "Unique" # [chance_to_deal_double_damage_%] >= "1" && [ForceSellItem] == "true" // Brain Rattler				//腦亂者 戮魂重錘	拾取且售出																						
 	[Type] == "Sledgehammer" && [Rarity] == "Unique" # [local_life_leech_from_physical_damage_permyriad] >= "1" && [ForceSellItem] == "true" // Hrimnor's Hymn				//雷姆諾的奪命樂具 冷鐵重錘	拾取且售出																						
 	[Type] == "Steelhead" && [Rarity] == "Unique" # [animate_weapon_number_of_additional_copies] >= "1" && [ForceSellItem] == "true" // Jorrhast's Blacksteel				//沉鋼重錘	拾取且售出																						
