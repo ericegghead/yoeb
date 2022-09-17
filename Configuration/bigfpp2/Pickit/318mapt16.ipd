@@ -77,6 +77,7 @@
 [Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
 //[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖黃地圖不撿，黃地圖售出
+[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Rare"  #	[ForceSellItem]	 == "true" // 	//	
 //[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #[ForceSellItem] == "true" // //傳奇地圖傳奇地圖不撿，傳奇地圖售出
 [Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉
 //[Type]=="Niko's Memory" # [StashItem]  == "true" // 
