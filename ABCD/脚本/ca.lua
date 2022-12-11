@@ -33,7 +33,7 @@ SetNeedSkillLineData(95,"召喚閃電魔像,nil|受傷時施放輔助,nil|屍術傳送,nil|",nil,
 SetNeedSkillLineData(96,"鋼筋鐵骨,nil|元素淨化,nil|惡意,nil",nil,9,nil)
 SetNeedSkillLineData(97,"凋零之步,nil|狙擊者印記,nil|擊中時印記輔助,nil",nil,nil,nil)
 SetNeedSkillLineData(98,"彈片砲塔,nil|凋零之觸輔助,nil|快速攻擊輔助,nil|多重圖騰輔助,nil|猛毒投射物輔助,nil",nil,nil,nil)
-SetNeedSkillLineData(99,"腐蝕箭矢,nil|虛空操縱輔助,nil|猛毒投射物輔助,nil|極速苦痛輔助,nil|集中效應輔助,nil|幻影射手輔助,nil|機率中毒輔助,nil",nil,nil,nil)
+SetNeedSkillLineData(99,"腐蝕箭矢,nil|虛空操縱輔助,nil|猛毒投射物輔助,nil|極速苦痛輔助,nil|集中效應輔助,nil|幻影射手輔助,nil|穿透輔助,nil",nil,nil,nil)
 SetNeedSkillLineData(100,"燃燒箭矢,nil|穿透輔助,nil",2,nil,nil)
 
 --添加攻击技能 name=技能名 className=技能类名 noLine=不在直线就能攻击 挑选攻击技能会从上到下寻找，要把厉害的技能加在前面
