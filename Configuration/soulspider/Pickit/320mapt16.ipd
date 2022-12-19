@@ -2130,9 +2130,9 @@
 //	[Type] == "Polaric Invitation" # 	[StashItem]	 == "true" // 		//極地之邀	不撿不存倉																						
 //	[Type] == "Incandescent Invitation" #	[StashItem]	 == "true" // 		//熾熱之邀	不撿不存倉																						
 	////25F 3.19 物品/////																											
-//	[Type]=="Niko's Memory" #	[StashItem]	 == "true" // 		//尼科的記憶	不撿不存倉																						
-//	[Type]=="Alva's Memory" #	[StashItem]	 == "true" // 		//艾瓦的記憶	不撿不存倉																						
-//	[Type]=="Kirac's Memory" #	[StashItem]	 == "true" // 		//基拉克的記憶	不撿不存倉																						
+	[Type]=="Niko's Memory" #	[StashItem]	 == "true" // 		//尼科的記憶	不撿不存倉																						
+	[Type]=="Alva's Memory" #	[StashItem]	 == "true" // 		//艾瓦的記憶	不撿不存倉																						
+	[Type]=="Kirac's Memory" #	[StashItem]	 == "true" // 		//基拉克的記憶	不撿不存倉																						
 	[Type]=="Einhar's Memory" #	[StashItem]	 == "true" // 		//埃哈的記憶	拾取且存倉																						
 	[Type]=="Engraved Ultimatum" #	[StashItem]	 == "true" // 		//雕刻最後通牒	拾取且存倉																						
 	[Type]=="Mirrored Tablet" #	[StashItem]	 == "true" // 		//鏡像平板電腦	拾取且存倉																						
@@ -2145,11 +2145,11 @@
 	[Type]=="Decaying Reliquary Key" #	[StashItem]	 == "true" // 		//腐朽的聖物鑰匙	拾取且存倉																						
 	////3.19 傳奇 先預設撿取 不知道會不會有價2022/08/22 /////																											
 //	[Type]=="Silken Vest" &&  [Rarity] == "Unique" # [ForceSellItem] == "true"	// 這些傳奇都需要特定判定 等待更新//			//綢緞背心	拾取且存倉																						
-//	[Type]=="Wolf Pelt" &&  [Rarity] == "Unique" # [ForceSellItem] == "true"				//狼首皮盔	拾取且存倉																						
+	[Type]=="Wolf Pelt" &&  [Rarity] == "Unique" # [ForceSellItem] == "true"				//狼首皮盔	拾取且存倉																						
 //	[Type]=="Titan Gauntlets" &&  [Rarity] == "Unique" # [ForceSellItem] == "true"				//岡姆之魂	拾取且存倉																						
 //	[Type]=="Carnal Mitts" &&  [Rarity] == "Unique" # [ForceSellItem] == "true"				//禁禮護手	拾取且存倉																						
 //	[Type]=="Primal Arrow Quiver" &&  [Rarity] == "Unique" # [ForceSellItem] == "true"				//優雅迷鏡	拾取且存倉																						
-//	[Type]=="Barbute Helmet" &&  [Rarity] == "Unique" # [ForceSellItem] == "true"				//輕騎盔	拾取且存倉																						
+	[Type]=="Barbute Helmet" &&  [Rarity] == "Unique" # [ForceSellItem] == "true"				//輕騎盔	拾取且存倉																						
 	////3.20 先預設不撿取 不知道會不會有價2022/08/22 /////																											
 //	[Type]=="Urn Relic" #	[StashItem]	 == "true" // 		//Urn 聖物	不撿不存倉																						
 //	[Type]=="Tome Relic" #	[StashItem]	 == "true" // 		//Tome 聖物	不撿不存倉																						
