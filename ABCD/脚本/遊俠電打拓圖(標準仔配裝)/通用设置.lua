@@ -93,7 +93,7 @@ AddNeedBuySkillTime(11,"a11q1")	--在拾取碎片 这个任务时检测购买一遍
 --药瓶摆放
 --SetNeedFlaskData(pos,flask)--设置药  pos=位置 1-5  flask=药 字符串型，支持以下 (生命药剂,魔力药剂,复合药剂,宝钻药剂,红玉药剂,蓝玉药剂,黄玉药剂,坚岩药剂,水银药剂,紫晶药剂,石英药剂,翠玉药剂,石化药剂,海蓝药剂,迷雾药剂,硫磺药剂,真银药剂,灰岩药剂)
 SetNeedFlaskData(1,"生命药剂","熱情洋溢的,FlaskPartialInstantRecovery3|密封之,FlaskBleedCorruptingBloodImmunity1",90)
-SetNeedFlaskData(2,"魔力药剂","耐久的,FlaskEffectNotRemovedOnFullMana1|法師之FlaskBuffReducedManaCostWhileHealing3",90)
+SetNeedFlaskData(2,"魔力药剂","耐久的,FlaskEffectNotRemovedOnFullMana1|奧術師之FlaskBuffReducedManaCostWhileHealing4",90)
 SetNeedFlaskData(3,"宝钻药剂","nil")
 SetNeedFlaskData(4,"紫晶药剂","nil")
 SetNeedFlaskData(5,"水银药剂","nil")
