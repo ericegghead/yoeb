@@ -11,17 +11,16 @@ g_newRoleJob="ÓÎÏÀ"
 --Éı»ªÖ°Òµ ÓÂÊ¿¡¢±©Í½¡¢Çõ³¤¡¢ÏÀ¿Í¡¢ÈñÑÛ¡¢×·ÁÔÕß¡¢ÃØÊõ¼Ò¡¢ÔªËØÊ¹¡¢ÕÙ»½Ê¦¡¢´¦ĞÌÕß¡¢ÎÀÊ¿¡¢¹Ú¾ü¡¢ÅĞ¹Ù¡¢Ê¥×Ú¡¢ÊØ»¤Õß¡¢°µÓ°´óÊ¦¡¢ÆÛÕ©Ê¦¡¢ÆÆ»µÕß¡¢Éı»ªÊ¹Í½¡¢
 g_shengHuaJob="ÏÀ¿Í"
 --ÉèÖÃÊ¹ÓÃµÄÎäÆ÷ Ö§³Ö(¶Ü}¼ı´ü}×¦}Ø°Ê×|·¨ÕÈ|µ¥ÊÖ½£|Ï¸½£|µ¥ÊÖ¸«|µ¥ÊÖ´¸|·ûÎÄØ°Ê×|¶ÌÕÈ|Õ½ÕÈ|¹­|³¤ÕÈ|Ë«ÊÖ½£|Ë«ÊÖ¸«|Ë«ÊÖ´¸) Èç¹ûĞèÒªÓÃÁ½ÑùÖĞ¼äÓÃ|·Ö¿ª
-SetUseWeapon("Ø°Ê×|¶Ü")
+SetUseWeapon("¹­|¼ı´ü")
 --ÉèÖÃ×Ô¼ºÓÃµÄ×°±¸ÀàĞÍ 
 SetUseZhuangBeiTypeData("Dex|DexInt|StrDex","ÒÂ·ş")
-SetUseZhuangBeiTypeData("Dex","Í·¿ø")
-SetUseZhuangBeiTypeData("Str|StrInt|Int","ÊÖÌ×")
-SetUseZhuangBeiTypeData("Dex","Ğ¬×Ó")
-SetUseZhuangBeiTypeData("StrInt","ÏîÁ´")
-SetUseZhuangBeiTypeData("Str|StrInt","¶Ü")
+SetUseZhuangBeiTypeData("DexInt","Í·¿ø")
+SetUseZhuangBeiTypeData("StrInt","ÊÖÌ×")
+SetUseZhuangBeiTypeData("StrDex","Ğ¬×Ó")
+SetUseZhuangBeiTypeData("Str","ÏîÁ´")
 
-g_attackDis=20				--¹¥»÷¾àÀë
-g_duobiHpVal=0.2
+g_attackDis=100					--¹¥»÷¾àÀë
+g_duobiHpVal=0.6
 
 --SetNeedSkillLineData(val,str,invalidLv,pos)--ÉèÖÃ»»¼¼ÄÜ±¦Ê¯Êı¾İ 
 --val=Ã¿¿é±¦Ê¯µÄ±ÈÖØÖµ
@@ -30,33 +29,31 @@ g_duobiHpVal=0.2
 --pos=Ö¸¶¨Î»ÖÃ nilÎª×Ô¶¯Ñ¡Ôñ 2ÎªÒÂ·ş 3ÎªÖ÷ÎäÆ÷ 4Îª¸±ÎäÆ÷ 5ÎªÍ·¿ø 6ÎªÏîÁ´ 7Îª×ó½äÖ¸ 8ÎªÓÒ½äÖ¸ 9Îª»¤ÊÖ 10ÎªĞ¬×Ó 11ÎªÑü´ø
 --nType ÓĞĞ§³¡¾° nilÎªÎŞÂÛºÎÊ±¶¼ÓĞĞ§ 0ÎªÃ»ÔÚË¢Òì½ç²ÅÓĞĞ§ 1ÎªÖ»ÔÚË¢Òì½ç²ÅÓĞĞ§
 
-SetNeedSkillLineData(10,"È¼Ÿı¼ıÊ¸,nil",2,nil,nil)
-SetNeedSkillLineData(95,"ÔªËØœQ»¯,nil|ÊÜ‚û•rÊ©·ÅİoÖú,nil|ĞÅÄîÀËœ¥,nil",nil,9,nil)
-SetNeedSkillLineData(96,"ä“½îèF¹Ç,nil|ÏÈ×æĞlÊ¿,nil|³ÖÀm•régÑÓéLİoÖú,nil|ÎïÆ·Ï¡ÓĞ¶ÈÔö·ùİoÖú,nil|ßBæiİoÖú,nil|±ùËªÖ®ÈĞ,nil|Ô÷ºŞ,nil",nil,4,nil)
-SetNeedSkillLineData(97,"±ùËªÖ®½İ,nil|±I«CÕßÓ¡Ó›,nil|“ôÖĞ•rÓ¡Ó›İoÖú,nil",nil,nil,nil)
+SetNeedSkillLineData(10,"È¼Ÿı¼ıÊ¸,nil|´©Í¸İoÖú,nil",nil,nil,nil)
+SetNeedSkillLineData(95,"ÔªËØœQ»¯,nil|±I«CÕßÓ¡Ó›,nil|“ôÖĞ•rÓ¡Ó›İoÖú,nil",nil,5,nil)
+SetNeedSkillLineData(96,"ºÒâ,nil|ÊÜ‚û•rÊ©·ÅİoÖú,nil|ŒÆĞg‚÷ËÍ,nil",nil,9,nil)
+SetNeedSkillLineData(97,"ä“½îèF¹Ç,nil|³ÖÀm•régÑÓéLİoÖú,nil",nil,10,nil)
 SetNeedSkillLineData(98,"µòÁãÖ®²½,nil|ÕÙ†¾º®±ùÄ§Ïñ,nil|»ÖÍİoÖú,nil",nil,nil,nil)
-SetNeedSkillLineData(99,"±¬ÁÑÏİÚå,nil|Ñ¸ËÙ½MÑbİoÖú,nil|™CÂÊÖĞ¶¾İoÖú,nil",18,nil,nil)
-SetNeedSkillLineData(100,"ì`ówĞıÎä,nil|Ò¹ÈĞİoÖú,nil|¸½¼Ó±ùÀä‚ûº¦İoÖú,nil|¸½¼ÓéWëŠ‚ûº¦İoÖú,nil|ÎïÀíŞDéWëŠİoÖú,nil|ËªÒ§İoÖú,nil|ÔªËØ¹¥“ô‚ûº¦İoÖú,nil|¿ìËÙ¹¥“ôİoÖú,nil",nil,nil,nil)
+SetNeedSkillLineData(100,"¸¯Îg¼ıÊ¸,nil|ÃÍ¶¾Í¶ÉäÎïİoÖú,nil|Ì“¿Õ²Ù¿vİoÖú,nil|˜OËÙ¿àÍ´İoÖú,nil|¼¯ÖĞĞ§‘ªİoÖú,nil|»ÃÓ°ÉäÊÖİoÖú,nil|™CÂÊÖĞ¶¾İoÖú,nil",nil,nil,nil)
 
 --Ìí¼Ó¹¥»÷¼¼ÄÜ name=¼¼ÄÜÃû className=¼¼ÄÜÀàÃû noLine=²»ÔÚÖ±Ïß¾ÍÄÜ¹¥»÷ ÌôÑ¡¹¥»÷¼¼ÄÜ»á´ÓÉÏµ½ÏÂÑ°ÕÒ£¬Òª°ÑÀ÷º¦µÄ¼¼ÄÜ¼ÓÔÚÇ°Ãæ
 
-AddAttackSkillData("ì`ówĞıÎä","Caustic Arrow")
-AddAttackSkillData("±¬ÁÑÏİÚå","Explosive Trap")
+AddAttackSkillData("¸¯Îg¼ıÊ¸","Caustic Arrow")
 AddAttackSkillData("È¼Ÿı¼ıÊ¸","Burning Arrow")
 AddAttackSkillData("ÆÕÍ¨¹¥»÷","melee")
 
 --SetSkillLimitMaxLv(name,className,maxLv)--ÉèÖÃ¼¼ÄÜ±¦Ê¯×î´óµÈ¼¶ name=¼¼ÄÜ±¦Ê¯ÎïÆ·Ãû className=¼¼ÄÜ±¦Ê¯ÎïÆ·ÀàÃû maxLv=ÏŞÖÆµÄ×î´óµÈ¼¶
 SetSkillLimitMaxLv("ÊÜ‚û•rÊ©·ÅİoÖú",nil,1)
-SetSkillLimitMaxLv("ĞÅÄîÀËœ¥",nil,1)
+SetSkillLimitMaxLv("ŒÆĞg‚÷ËÍ",nil,1)
 
 
 -- SetYiJieZhaoHuanLingTiData(mapClassName,name,className)--ÉèÖÃÒì½çÊ±ÕÙ»½µÄÁéÌåÊı¾İ mapClassName=¾çÇéÍ¼ÀàÃû name=ÁéÌåÃû className=ÁéÌåÀàÃû
 
-SetNeedFlaskData(1,"ÉúÃüÒ©¼Á","nil")
+SetNeedFlaskData(1,"ÉúÃüÒ©¼Á","ÊÜó@µÄ,FlaskInstantRecoveryOnLowLife2",27)
 SetNeedFlaskData(2,"ÉúÃüÒ©¼Á","nil")
-SetNeedFlaskData(3,"Ë®ÒøÒ©¼Á","nil")
-SetNeedFlaskData(4,"ÉúÃüÒ©¼Á","nil")
-SetNeedFlaskData(5,"Ä§Á¦Ò©¼Á","nil")
+SetNeedFlaskData(3,"ÉúÃüÒ©¼Á","nil")
+SetNeedFlaskData(4,"Ë®ÒøÒ©¼Á","nil")
+SetNeedFlaskData(5,"Ä§Á¦Ò©¼Á","ÄÍ¾ÃµÄ,FlaskEffectNotRemovedOnFullMana1",16)
 
 
 g_addHpVal=0.7--HPµÍÓÚ¶àÉÙ³ÔºìÒ©
@@ -83,56 +80,50 @@ SetAtuoChangeEquipData("°µÓ°|Ò°ÂùÈË|¾ö¶·Õß|Å®Î×|ÓÎÏÀ|Ê¥ÌÃÎäÉ®","½äÖ¸|ÏîÁ´|Ñü´ø|Ğ
 SetAtuoChangeEquipData("°µÓ°|Ò°ÂùÈË|¾ö¶·Õß|Å®Î×|ÓÎÏÀ|Ê¥ÌÃÎäÉ®","½äÖ¸|ÏîÁ´|Ñü´ø|Ğ¬×Ó|ÊÖÌ×|ÒÂ·ş|Í·¿ø|¼ı´ü","base_maximum_life",0.3)--ÉúÃü
 SetAtuoChangeEquipData("°µÓ°|Ò°ÂùÈË|¾ö¶·Õß|Å®Î×|ÓÎÏÀ|Ê¥ÌÃÎäÉ®","½äÖ¸|ÏîÁ´|Ñü´ø|Ğ¬×Ó|ÊÖÌ×|ÒÂ·ş|Í·¿ø|¼ı´ü","movement_velocity_+%",0.3)--ÒÆ¶¯ËÙ¶È +%
 
-SetAtuoChangeEquipData("ÓÎÏÀ","ÏîÁ´","additional_strength",0.2)--
-SetAtuoChangeEquipData("ÓÎÏÀ","ÏîÁ´","additional_intelligence",0.2)--
-SetAtuoChangeEquipData("ÓÎÏÀ","ÏîÁ´","additional_strength_and_intelligence",0.3)--
-
 --ÓÎÏÀ
-SetAtuoChangeEquipData("ÓÎÏÀ","Ø°Ê×","ÎïÀíÉËº¦",5,nil)
-SetAtuoChangeEquipData("ÓÎÏÀ","Ø°Ê×","Local_Maximum_Added_Fire_Damage",5,nil)
-SetAtuoChangeEquipData("ÓÎÏÀ","Ø°Ê×","Local_Maximum_Added_cold_Damage",5,nil)
-SetAtuoChangeEquipData("ÓÎÏÀ","Ø°Ê×","Local_Maximum_Added_lightning_Damage",5,nil)
-SetAtuoChangeEquipData("ÓÎÏÀ","Ø°Ê×","Local_critical_strike_chance_%",3,nil)
-SetAtuoChangeEquipData("ÓÎÏÀ","¶Ü","»¤¼×",1,nil)
-
+SetAtuoChangeEquipData("ÓÎÏÀ","¹­","ÎïÀíÉËº¦",5,nil)
 --ÓÎÏÀ--¿×É«
-SetZhengTiColorVarData(2,2,2,2,nil,650,true)
-SetZhengTiColorVarData(2,1,2,2,nil,600,true)
-SetZhengTiColorVarData(2,0,3,2,nil,550,true)
+SetZhengTiColorVarData(2,0,5,1,nil,650,true)
+SetZhengTiColorVarData(2,0,6,0,nil,600,true)
+SetZhengTiColorVarData(2,0,4,1,nil,550,true)
+SetZhengTiColorVarData(2,0,5,0,nil,500,true)
 SetZhengTiColorVarData(2,0,4,0,nil,450,true)
 SetZhengTiColorVarData(2,0,3,1,nil,400,true)
-SetZhengTiColorVarData(2,1,3,0,nil,350,true)
 SetZhengTiColorVarData(2,0,3,0,nil,300,true)
-SetZhengTiColorVarData(2,0,2,1,nil,250,true)
 SetZhengTiColorVarData(2,0,2,0,nil,200,true)
-SetZhengTiColorVarData(2,0,1,1,nil,150,true)
+SetZhengTiColorVarData(2,0,2,0,nil,150)
+SetZhengTiColorVarData(2,1,1,0,nil,130)
+SetZhengTiColorVarData(2,0,1,1,nil,120)
 SetZhengTiColorVarData(2,0,1,0,nil,100)
 SetZhengTiColorVarData(2,1,0,0,nil,60)
 SetZhengTiColorVarData(2,0,0,1,nil,50)
 
-SetZhengTiColorVarData(3,0,3,0,nil,30,true)
-SetZhengTiColorVarData(3,0,2,0,nil,20,true)
-SetZhengTiColorVarData(3,0,1,0,nil,10)
+SetZhengTiColorVarData(3,0,4,0,nil,400,true)
+SetZhengTiColorVarData(3,0,3,0,nil,300,true)
+SetZhengTiColorVarData(3,0,2,0,nil,200,true)
+SetZhengTiColorVarData(3,0,1,0,nil,100)
 
-SetZhengTiColorVarData(4,3,0,0,nil,300,true)
-SetZhengTiColorVarData(4,2,0,0,nil,200,true)
-SetZhengTiColorVarData(4,1,0,0,nil,100)
-
-SetZhengTiColorVarData(5,0,4,0,nil,400,true)
-SetZhengTiColorVarData(5,0,3,1,nil,300,true)
-SetZhengTiColorVarData(5,0,2,0,nil,200,true)
+SetZhengTiColorVarData(5,0,2,2,nil,450,true)
+SetZhengTiColorVarData(5,0,3,1,nil,400,true)
+SetZhengTiColorVarData(5,0,2,1,nil,300,true)
+SetZhengTiColorVarData(5,0,1,1,nil,200,true)
+SetZhengTiColorVarData(5,0,0,1,nil,150)
 SetZhengTiColorVarData(5,0,1,0,nil,100)
 
 SetZhengTiColorVarData(9,2,0,2,nil,400,true)
 SetZhengTiColorVarData(9,1,0,3,nil,350,true)
 SetZhengTiColorVarData(9,1,0,2,nil,300,true)
+SetZhengTiColorVarData(9,0,0,2,nil,250,true)
 SetZhengTiColorVarData(9,1,0,1,nil,200,true)
 SetZhengTiColorVarData(9,0,0,1,nil,100)
 
-SetZhengTiColorVarData(10,0,4,0,nil,400,true)
-SetZhengTiColorVarData(10,0,3,0,nil,300,true)
-SetZhengTiColorVarData(10,0,2,0,nil,200,true)
-SetZhengTiColorVarData(10,0,1,0,nil,100)
+SetZhengTiColorVarData(10,2,2,0,nil,450,true)
+SetZhengTiColorVarData(10,3,1,0,nil,400,true)
+SetZhengTiColorVarData(10,4,0,0,nil,350,true)
+SetZhengTiColorVarData(10,2,1,0,nil,300,true)
+SetZhengTiColorVarData(10,3,0,0,nil,250,true)
+SetZhengTiColorVarData(10,2,0,0,nil,200,true)
+SetZhengTiColorVarData(10,1,0,0,nil,100)
 
 
 
@@ -147,11 +138,11 @@ AddShengJiZhuangBeiGoodsData("¸»ºÀÊ¯","Metadata/Items/Currency/CurrencyUpgradeMa
 SetGaoJiHuanZhuangData("ÓÎÏÀ","¼òÒ×Ö®ÅÛ","Metadata/Items/Armours/BodyArmours/BodyInt1","ÎŞ¾¡Ö®ÒÂ","Tabula Rasa")
 
 --SetTaskShengJiData(taskClassName,taskIndex,shengjiMapClassName,needLv)--ÉèÖÃÅÜÍ¼Ê±Éı¼¶ taskClassName=ÈÎÎñÀàÃû taskIndex=ÈÎÎñË÷Òı nilÎªºöÂÔ£¬Ö»Æ¥ÅäÈÎÎñÀàÃû shengjiMapClassName=ÒªË¢µÄµØÍ¼ÀàÃû needLv=Éı¼¶µ½¶àÉÙ¼¶ÎªÖ¹
-SetTaskShengJiData("a5q7",nil,"1_5_5",49,true)--×ö µ½ÆæËş¸¥µÄÊÜÄÑ µÄÊ±ºòË¢´¿¾»Ê¥µØµ½50¼¶ÔÙ½øĞĞÏÂÒ»ÈÎÎñ
-SetTaskShengJiData("a9q3",nil,"2_9_1",66,true)--×ö µ½ïL±©ïwÈĞ µÄÊ±ºòË¢BÑªË®µÀµ½68¼¶ÔÙ½øĞĞÏÂÒ»ÈÎÎñ
+SetTaskShengJiData("a5q7",nil,"1_5_5",50,true)--×ö µ½ÆæËş¸¥µÄÊÜÄÑ µÄÊ±ºòË¢´¿¾»Ê¥µØµ½50¼¶ÔÙ½øĞĞÏÂÒ»ÈÎÎñ
+SetTaskShengJiData("a9q3",nil,"2_9_1",68,true)--×ö µ½ïL±©ïwÈĞ µÄÊ±ºòË¢BÑªË®µÀµ½68¼¶ÔÙ½øĞĞÏÂÒ»ÈÎÎñ
 SetTaskShengJiData("a10q2",nil,"2_9_1",80,true)--×ö µ½ïL±©ïwÈĞ µÄÊ±ºòË¢BÑªË®µÀµ½68¼¶ÔÙ½øĞĞÏÂÒ»ÈÎÎñ
 
-SetTaskMiGongData("a8q7",nil,1)--´óÓÚµÈÓÚa9q1¼¶ ×öÃÔ¹¬1
+SetTaskMiGongData("a9q1",nil,1)--´óÓÚµÈÓÚa9q1¼¶ ×öÃÔ¹¬1
 SetTaskMiGongData("a10q1",nil,2)--´óÓÚµÈÓÚa10q1 ×öÃÔ¹¬2
 SetTaskMiGongDataByLv(80,3)--´óÓÚµÈÓÚ80¼¶ ×öÃÔ¹¬3
 
@@ -162,5 +153,5 @@ SetChangeLimitCnt("ÏîÁ´|½äÖ¸",4)
 
 
 --SetNeedAddTianFu(tfStr)--ÉèÖÃÌì¸³¼Óµã 
-SetNeedAddTianFu("ÓÎÏÀ=evasion731-éW±ÜºÍÉúÃü|dexterity988-Ãô½İ|dexterity986-Ãô½İ|dexterity984-Ãô½İ|dexterity985-Ãô½İ|dexterity861-Ãô½İ|weapon_elemental_damage2163-ÎäÆ÷ÔªËØ‚ûº¦|weapon_elemental_damage2161-ÎäÆ÷ÔªËØ‚ûº¦£¬®³£ î‘B™CÂÊ|weapon_elemental_damage2162-ÎäÆ÷ÔªËØ‚ûº¦£¬®³£ î‘B™CÂÊ|weapon_elemental_damage_notable2165-Ì«¹ÅÖ®Á¦|finesse993-‹¹Êì|reduced_mana1480-Ä§Á¦ºÍË„©Ğ§¹û|mana1478-Ô­Ê¼¾«Éñ|dexterity873-Ãô½İ|dexterity858-Ãô½İ|dexterity968-Ãô½İ|weapon_cold_damage212-ÎäÆ÷±ùÀä‚ûº¦|weapon_cold_damage211-ÎäÆ÷±ùÀä‚ûº¦|ice_bite433-´Ì¹Çº®±ù|mastery_cold61-±ùÀäŒ£¾«-13267|stun_recovery543-ÉúÃüºÍ±ÜÃâ•Ñ£|avoid_stun553-ÏğÄ¾Ö®ĞÄ|dexterity877-Ãô½İ|might772-‰Ñh|savant937-Ô­Ò°ÖÇ»Û|life1167-ÉúÃüºÍ±ÜÃâÔªËØ®³£ î‘B|life1156-ÉúÃüºÍ±ÜÃâÔªËØ®³£ î‘B|life1120-ÉúÃüºÍ±ÜÃâÔªËØ®³£ î‘B|thick_skin1157-Š»¯Ö®Äw|mastery_life133-ÉúÃüŒ£¾«-47642|bow_critical_strike_chance675-Í¶ÉäÎï¹¥“ô±©“ôÂÊ|bow_critical_strike_chance674-Í¶ÉäÎï¹¥“ô±©“ôÂÊ|heartpierce676-ÖÂÃüähÃ¢|one_handed_damage636-ÎäÆ÷ÔªËØ‚ûº¦|shield_mastery440-×ÔÈ»ºÏÒ»|one_handed_damage637-ÎäÆ÷ÔªËØ‚ûº¦|claws_of_the_pride489-Ö±ÓX|one_handed_damage1050-¹¥“ô‚ûº¦|weapon_artistry620-ÎèÈĞ×ÚŸ|one_handed_attack_speed1027-¹¥“ô‚ûº¦|attack_damage_notable2120-É½ØˆÖ®ì`|dexterity862-Ãô½İ|life1216-ÉúÃü|life1412-ÉúÃü|alchemist532-Ë²İŒW|mastery_life146-ÉúÃüŒ£¾«-64381|dexterity864-Ãô½İ|critical_strike_chance625-±©“ôÂÊ|critical_strike_chance624-±©“ôÂÊ|heartseeker626-´ÌĞÄÕß|dexterity866-Ãô½İ|dexterity865-Ãô½İ|dexterity856-Ãô½İ|might770-ŸoÎ·|evasion1692-éW±ÜÅcÔªËØ¿¹ĞÔ|evasion_resists_notable1691-ËÀÑeÌÓÉú|dexterity872-Ãô½İ|weapon_elemental_damage1263-ÎäÆ÷ÔªËØ‚ûº¦|weapon_elemental_damage1264-ÎäÆ÷ÔªËØ‚ûº¦|weapon_ele_notable1700-×ÔÈ»Ö®Á¦|mastery_elemental99-ÔªËØŒ£¾«-30502|dexterity860-Ãô½İ|dagger_damage2060-Ø°Ê×‚ûº¦ºÍÒÆ„ÓËÙ¶È|dagger_mobility2533-Ø°Ê×µÄ‚ûº¦ºÍÒÆ„ÓËÙ¶È|from_the_shadows471-Ó°ÈĞ|mastery_dagger78-Ø°Ê×Œ£¾«-44869|dexterity867-Ãô½İ|intelligence927-ÖÇ»Û|intelligence926-ÖÇ»Û|dagger_damage264-Ø°Ê×‚ûº¦|dagger_damage_and_critical_strike_chance465-Ø°Ê×±©“ôÂÊºÍ±©“ô¼Ó³É|dagger_damage_and_critical_strike_multiplier262-Ø°Ê×±©“ôÂÊºÍ¼Ó³É|dagger_damage_and_critical_strike_multiplier263-Ø°Ê×±©“ôÂÊºÍ¼Ó³É|dagger_global_crit_notable2527-±³´Ì|dagger_damage_and_attack_speed466-Ø°Ê×‚ûº¦ºÍ¹¥“ôËÙ¶È|dagger_damage_and_attack_speed467-Ø°Ê×‚ûº¦ºÍ¹¥“ôËÙ¶È|dagger_damage_and_attack_speed468-Ø°Ê×‚ûº¦ºÍ¹¥“ôËÙ¶È|flaying266-„ƒÆ¤ÈĞ|accuracy587-ÃüÖĞºÍ±©“ôÂÊ|accuracy586-ÃüÖĞºÍ±©“ôÂÊ|deadeye588-“Òâ×R|life1415-ÉúÃü|life_life_leech1629-ÊÈÑªÕß|life1413-ÉúÃü|dexterity857-Ãô½İ|dexterity991-Ãô½İ|intelligence962-ÖÇ»Û|intelligence953-ÖÇ»Û|spell_power1227-Àä¿áÓ‹Ëã|intelligence964-ÖÇ»Û|dagger_crit2532-Ø°Ê×µÄ±©“ôÂÊ|dagger_damage_and_critical_strike_chance258-Ø°Ê×±©“ôÂÊºÍÍµÈ¡|nightstalker261-Ò¹Òu|dagger_damage_and_critical_strike_chance257-Ø°Ê×±©“ô¼Ó³É|mastery_dagger77-Ø°Ê×Œ£¾«-63223|mental_acuity1046-ÔÓ‹|critical_strike_chance1019-±©“ôÂÊ|assassination1239-´Ìš¢|")
+SetNeedAddTianFu("ÓÎÏÀ=attack_speed568-Í¶ÉäÎï‚ûº¦ºÍÃüÖĞ|accuracy581-Í¶ÉäÎï‚ûº¦Åc¹¥“ôËÙ¶È|projectile_damage592-Í¶ÉäÎï‚ûº¦|projectile_damage593-Í¶ÉäÎï‚ûº¦|projectile_damage1485-Í¶ÉäÎï‚ûº¦|perfect_aim591-—µÀŒW|stun_recovery544-ÉúÃüºÍ±ÜÃâ•Ñ£|avoid_stun553-ÏğÄ¾Ö®ĞÄ|bow_damage_and_speed498-¹­µÄ‚ûº¦|greater_impact638-ú—ì`×£¸£|dexterity995-Ãô½İ|intelligence957-ÖÇ»Û|dexterity848-Ãô½İ|strength815-Á¦Á¿|chaos_damage1578-»ìãç³ÖÀm‚ûº¦¼Ó³É|chaos_damage1579-»ìãç³ÖÀm‚ûº¦¼Ó³É|dagger_leech_notable2537-ÀËÙM|mastery_chaos47-»ìãçŒ£¾«-65015|mana1479-Ä§Á¦ºÍË„©Ğ§¹û|mana1478-Ô­Ê¼¾«Éñ|stun_recovery543-ÉúÃüºÍ±ÜÃâ•Ñ£|finesse993-‹¹Êì|dexterity855-Ãô½İ|dexterity856-Ãô½İ|might770-ŸoÎ·|life1116-éW±ÜºÍÉúÃü|life1115-éW±ÜºÍÉúÃü|life1117-ËÀÍöÍ¨¾ƒ|bow_chaos2508-¹­µÄ‚ûº¦|bow_chaos2509-¹­µÄ‚ûº¦|master_fletcher515-«CÈËÖ®¾Ö|dexterity981-Ãô½İ|agility965-ºÍÖCÖ®ów|life703-ÉúÃü|fitness617-ÑªÒº³éÈ¡|degeneration_damage1569-³ÖÀm‚ûº¦|degeneration_damage_notable1575-yÊÀ|degeneration_damage1570-³ÖÀm‚ûº¦|acceleration1238-¶¾ÉßÖ®ÑÀ|dexterity865-Ãô½İ|dexterity860-Ãô½İ|dexterity867-Ãô½İ|life1415-ÉúÃü|life_life_leech1629-ÊÈÑªÕß|mastery_life135-ÉúÃüŒ£¾«-47642|aura_area_of_effect1203-¹â­hĞ§¹û¹ ‡ú|reduced_mana_reservation1199-±£ÁôĞ§ÓÃ|aura_effect_reservation_cost_notable1558-÷ÈÁ¦|mastery_reservation208-±£ÁôŒ£¾«-34383|intelligence927-ÖÇ»Û|intelligence926-ÖÇ»Û|ghost_dance_keystone2852_-¹íÎè|intelligence906-ÖÇ»Û|intelligence930-ÖÇ»Û|chaos_physical_damage2118-ÎïÀíÅc»ìãç‚ûº¦|chaos_damage2108_-»ìãç³ÖÀm‚ûº¦¼Ó³É|chaos_damage2110-»ìãç³ÖÀm‚ûº¦¼Ó³É|chaos_damage2109-»ìãç³ÖÀm‚ûº¦¼Ó³É|chaos_damage2111-Î®¿s|life_energy_shield1675-ÉúÃüºÍÄÜÁ¿×o¶Ü|fitness1160-Ñª•ø|intelligence960-ÖÇ»Û|aura_effect1553-¹â­hĞ§¹û|reduced_mana_reservation1200-±£ÁôĞ§ÓÃ|aura_effect_notable1557-Ó°í‘|mastery_reservation209-±£ÁôŒ£¾«-61097|dexterity866-Ãô½İ|dexterity864-Ãô½İ|bow_damage506-¹­µÄ‚ûº¦ºÍÃüÖĞ|bow_damage_and_speed500-¹­µÄ‚ûº¦ºÍ¹¥“ôËÙ¶È|bow_damage505-¹­µÄ‚ûº¦ºÍ¹¥“ôËÙ¶È|bow_damage_and_speed501-¹­µÄ‚ûº¦ºÍ¹¥“ôËÙ¶È|deadly_draw680-ïwÊ¸×ÚŸ|dexterity862-Ãô½İ|life1216-ÉúÃü|life1412-ÉúÃü|alchemist532-Ë²İŒW|mastery_life146-ÉúÃüŒ£¾«-64381|dexterity984-Ãô½İ|strength821-Á¦Á¿|dexterity853-Ãô½İ|bow_mobility2507-¹­µÄ‚ûº¦|bow_damage_move_speed1710-¹­µÄ‚ûº¦ºÍéW±Ü|bow_damage_move_speed1709-¹­µÄ‚ûº¦ºÍéW±Ü|bow_damage_speed_notable1711-á÷«CÖ®áç|dexterity850-Ãô½İ|dexterity1988-Ãô½İ|dexterity849-Ãô½İ|life_flasks_1745-ÉúÃüÅcË„©|life_flasks1744-ÉúÃüÅcË„©|life_flasks_notable1747-ÉúÎïŒW|dexterity847-Ãô½İ|sentinel1541-ÉÚ±ø|strength789-Á¦Á¿|strength773-Á¦Á¿|life1164-ÉúÃü|life_notable1697-˜‹³É|reflexes706-éW±ÜºÍ·¨Ğg‰ºÒÖ|reflexes1091-·´Éä|")
 SetNeedAddTianFu("ÓÎÏÀÉı»ª=AscendancyRaider5-éW±Ü¡¢ÃÍ¹¥Ğ§¹û|AscendancyRaider6-˜OËÙßM¹¥|AscendancyRaider7-éW±Ü¡¢ÃÍ¹¥Ğ§¹û|AscendancyRaider8-×·«CÊ¹Í½|AscendancyRaider3-éW±Ü¡¢¿ñÅ­Çò³ÖÀm•rég|AscendancyRaider2-±I«CÕßÖ®Í¾|") 
