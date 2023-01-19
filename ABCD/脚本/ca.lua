@@ -45,6 +45,7 @@ AddAttackSkillData("普通攻击","melee")
 SetDebuffSkill(nil,"snipers_mark",nil,"curse_snipers_mark")--狙擊者印记
 
 --SetSkillLimitMaxLv(name,className,maxLv)--设置技能宝石最大等级 name=技能宝石物品名 className=技能宝石物品类名 maxLv=限制的最大等级
+SetSkillLimitMaxLv("鋼筋鐵骨",nil,10)
 SetSkillLimitMaxLv("受傷時施放輔助",nil,1)
 SetSkillLimitMaxLv("屍術傳送",nil,1)
 
