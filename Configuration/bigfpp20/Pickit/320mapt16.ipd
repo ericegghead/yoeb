@@ -213,7 +213,7 @@
 
 [Type]== "Siege Axe" && [Rarity] == "Unique" #  [StashItem] == "true" // Soul Taker 開膛斧破城斧
 
-         [Type]== "Spine Bow" && [Rarity] == "Unique" # [StashItem] == "true" // Reach of the Council / Voltaxic Rift
+[Type]== "Spine Bow" && [Rarity] == "Unique" # [StashItem] == "true" // Reach of the Council / Voltaxic Rift
 
 	//蜘蛛刀=6D																											
 //	[Type]== "Fiend Dagger" && [Rarity] == "Unique" #  	[StashItem]	 == "true" // 																									
