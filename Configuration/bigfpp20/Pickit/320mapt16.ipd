@@ -80,7 +80,7 @@
  
 
  //編輯時間：2022/7/5 ex比水餃便宜的季末
-[Type] == "Orb of Alteration" # [StashItem] == "true"////改造石拾取且存倉
+//[Type] == "Orb of Alteration" # [StashItem] == "true"////改造石拾取且存倉
 [Type] == "Chaos Orb" # [StashItem] == "true"////混沌石拾取且存倉
 [Type] == "Divine Orb" # [StashItem] == "true"////神聖石拾取且存倉
 [Type] == "Exalted Orb" # [StashItem] == "true"////崇高石拾取且存倉
@@ -98,7 +98,7 @@
 [Type] == "Gemcutter's Prism"# [StashItem] == "true"////GCP 拾取且存倉
 [Type] == "Regal Orb" # [StashItem] == "true"////富豪
 [Type] == "Vaal Orb" # [StashItem] == "true"//	//瓦爾寶珠	拾取且存倉
-[Type] == "Glassblower's Bauble"# [StashItem] == "true"	//	//玻璃彈珠	不撿不存倉																						
+[Type] == "Glassblower's Bauble" # [StashItem] == "true"	//	//玻璃彈珠	不撿不存倉																						
 [Type] == "Blessed Orb" # [StashItem] == "true"	//	//祝福石	不撿不存倉
 [Type] == "Awakened Sextant" # [StashItem] == "true"////六分
 
