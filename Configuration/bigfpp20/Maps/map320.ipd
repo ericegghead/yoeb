@@ -265,7 +265,7 @@
 
 // REROLL magic maps with Alteration
 [map_monsters_reflect_%_elemental_damage] 	            >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Mirrored -- Monsters Reflect % Elemental Damage
-[map_monsters_reflect_%_physical_damage] 	            >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Punishing -- Monsters Reflect % Physical Damage
+//[map_monsters_reflect_%_physical_damage] 	            >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Punishing -- Monsters Reflect % Physical Damage
 [map_players_no_regeneration_including_es] 	            >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Statis -- Players have no Life or Mana Regeneration
 //[map_player_has_level_X_temporal_chains]                >= "1" && [Rarity] == "Magic" # [RerollMods] == "true"//玩家受到時空鎖鍊詛咒影響
 [map_player_has_level_X_vulnerability]                  >= "1" && [Rarity] == "Magic" # [RerollMods] == "true"//玩家受到脆弱詛咒
@@ -277,6 +277,8 @@
 //[map_ground_lightning]                                >= "1" && [Rarity] == "Magic" # [RerollMods] == "true"//地圖裡有感電地面
 [map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Desecration -- Area Has Patches of Desecrated Ground 地圖裡有汙染地面
 //[map_players_block_chance_+%]                            < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour // 降低格擋
+[map_monsters_avoid_ailments_%]                         >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments
+
 
 
 // IGNORE magic maps
@@ -293,6 +295,7 @@
 //[map_ground_lightning]                                  >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true"//地圖裡有感電地面
 //[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Desecration -- Area Has Patches of Desecrated Ground 地圖裡有汙染地面
 //[map_players_block_chance_+%]                            < "0" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour // 降低格擋
+//[map_monsters_avoid_ailments_%]                           >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments
 
 
 // REROLL rare maps with Chaos
@@ -309,11 +312,12 @@
 //[map_ground_lightning]                                  >= "1" && [Rarity] == "Rare" # [RerollMods] == "true"//地圖裡有感電地面
 //[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Desecration -- Area Has Patches of Desecrated Ground 地圖裡有汙染地面
 //[map_players_block_chance_+%]                            < "0" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour // 降低格擋
+//[map_monsters_avoid_ailments_%]                         >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments
 
 // IGNORE rare maps
 // REROLL Rare maps with Alteration
 [map_monsters_reflect_%_elemental_damage] 	            >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Mirrored -- Monsters Reflect % Elemental Damage
-[map_monsters_reflect_%_physical_damage] 	            >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Punishing -- Monsters Reflect % Physical Damage
+//[map_monsters_reflect_%_physical_damage] 	            >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Punishing -- Monsters Reflect % Physical Damage
 [map_players_no_regeneration_including_es] 	            >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Statis -- Players have no Life or Mana Regeneration
 //[map_player_has_level_X_temporal_chains]                >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true"//玩家受到時空鎖鍊詛咒影響
 [map_player_has_level_X_vulnerability]                  >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true"//玩家受到脆弱詛咒
@@ -325,3 +329,7 @@
 //[map_ground_lightning]                                >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true"//地圖裡有感電地面
 [map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Desecration -- Area Has Patches of Desecrated Ground 地圖裡有汙染地面
 //[map_players_block_chance_+%]                            < "0" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour // 降低格擋
+[map_monsters_avoid_ailments_%]                           >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments
+
+
+
