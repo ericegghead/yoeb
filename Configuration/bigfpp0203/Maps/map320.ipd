@@ -276,7 +276,8 @@
 //[map_ground_ice]                                      >= "1" && [Rarity] == "Magic" # [RerollMods] == "true"//地圖裡有冰緩地面
 //[map_ground_lightning]                                >= "1" && [Rarity] == "Magic" # [RerollMods] == "true"//地圖裡有感電地面
 [map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Desecration -- Area Has Patches of Desecrated Ground 地圖裡有汙染地面
-//[map_players_block_chance_+%]                            < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour // 降低格擋
+//[map_players_block_chance_+%]                          < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour // 降低格擋
+[map_monsters_avoid_ailments_%]                         >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments
 
 
 // IGNORE magic maps
@@ -293,6 +294,7 @@
 //[map_ground_lightning]                                  >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true"//地圖裡有感電地面
 //[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Desecration -- Area Has Patches of Desecrated Ground 地圖裡有汙染地面
 //[map_players_block_chance_+%]                            < "0" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour // 降低格擋
+//[map_monsters_avoid_ailments_%]                           >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments
 
 
 // REROLL rare maps with Chaos
@@ -309,6 +311,8 @@
 //[map_ground_lightning]                                  >= "1" && [Rarity] == "Rare" # [RerollMods] == "true"//地圖裡有感電地面
 //[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Desecration -- Area Has Patches of Desecrated Ground 地圖裡有汙染地面
 //[map_players_block_chance_+%]                            < "0" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour // 降低格擋
+//[map_monsters_avoid_ailments_%]                         >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments
+
 
 // IGNORE rare maps
 // REROLL Rare maps with Alteration
@@ -325,3 +329,5 @@
 //[map_ground_lightning]                                >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true"//地圖裡有感電地面
 [map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Desecration -- Area Has Patches of Desecrated Ground 地圖裡有汙染地面
 //[map_players_block_chance_+%]                            < "0" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour // 降低格擋
+[map_monsters_avoid_ailments_%]                           >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments
+
