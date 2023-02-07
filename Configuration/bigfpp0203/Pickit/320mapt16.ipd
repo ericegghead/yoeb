@@ -4,6 +4,9 @@
 
 //3.20 1/15 新增虛誕鑰匙
 
+[Type] == "Screaming Invitation" # [StashItem] == "true" ////尖哮之邀拾取且存倉
+[Type] =="Incandescent Invitation" # [StashItem] == "true" ////熾熱之邀拾取且存倉
+[Type] == "The Apothecary" # [StashItem] == "true"////(魔血 5/5)拾取且存倉
 
 [Category] == "Map" && [MapTier] >= "1" && [Type] == "Crimson Temple Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "1" && [Type] == "Crimson Temple Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
@@ -129,10 +132,10 @@
 [Type] == "Empower Support" #[StashItem] == "true"////賦予輔助拾取且存倉
 [Type] == "Enhance Support" #[StashItem] == "true"////增幅輔助不撿不存倉
 [Type] == "Enlighten Support" #[StashItem] == "true"////啟蒙輔助拾取且存倉
-[Type] == "The Apothecary" #[StashItem] == "true"////(魔血 5/5)拾取且存倉
-[Type] =="Incandescent Invitation" #[StashItem] == "true" ////熾熱之邀拾取且存倉
+[Type] == "The Apothecary" # [StashItem] == "true"////(魔血 5/5)拾取且存倉
+[Type] =="Incandescent Invitation" # [StashItem] == "true" ////熾熱之邀拾取且存倉
 //[Type] =="Polaric Invitation" #[StashItem] == "true" ////極地之邀不撿不存倉
-[Type] == "Screaming Invitation" #[StashItem] == "true" ////尖哮之邀拾取且存倉
+[Type] == "Screaming Invitation" # [StashItem] == "true" ////尖哮之邀拾取且存倉
 //[Type] =="Writhing Invitation" #[StashItem] == "true" ////纏繞之邀不撿不存倉
 [Type] == "Humility" # [StashItem] == "true" // 1.0 C//謙遜(無盡之衣)拾取且存倉
 [Type] == "House of Mirrors" # [StashItem] == "true" // 2220 C//明鏡(卡蘭德的魔鏡)拾取且存倉30E
