@@ -1055,7 +1055,7 @@
 //預設//	[Type]== "Amber Amulet" && [Rarity] == "Unique" # [fire_damage_+%] >= "1" && [ForceSellItem] == "true" // Xoph's Heart				//索伏之心 琥珀護身符	拾取且存倉																						
 //基底勿動//	[Type]== "Onyx Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Astramentis / Carnage Heart / Hinekora's Sight / Impresense / Yoke of Suffering / Presence of Chayula				//夏烏拉之印 黑曜護身符	拾取且存倉																						
 	[Type]== "Paua Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Atziri's Foible / Sacrificial Heart / Sidhebreath / Zerphi's Heart				//澤佛伊之心 海靈護身符	拾取且售出																						
-	[Type] == "Spiraled Wand" && [Rarity] == "Unique" # [local_display_socketed_gems_get_echo_level] >= "1" && [ForceSellItem] == "true" // Reverberation Rod - [Power Magnified] - Amplification Rod				//螺紋法杖	拾取且售出																						
+//	[Type] == "Spiraled Wand" && [Rarity] == "Unique" # [local_display_socketed_gems_get_echo_level] >= "1" && [ForceSellItem] == "true" // Reverberation Rod - [Power Magnified] - Amplification Rod				//螺紋法杖	拾取且售出																						
 	[Type] == "Golden Buckler" && [Rarity] == "Unique" # [reflect_curses] >= "1" && [ForceSellItem] == "true" // Atziri's Mirror - [The Queen's Sacrifice] - Atziri's Reflection				//金陽輕盾	拾取且售出																						
 	[Type] == "Gavel" && [Rarity] == "Unique" # [killed_monster_dropped_item_rarity_+%_when_frozen] >= "1" && [ForceSellItem] == "true" // Cameria's Maul - [Cold Greed] - Cameria's Avarice				//堅錘	拾取且售出																						
 	[Type] == "Great Mallet" && [Rarity] == "Unique" # [local_socketed_minion_gem_level_+] >= "1" && [ForceSellItem] == "true" // Chober Chaber - [Faith Exhumed] - Chaber Cairn				//剛猛巨錘	拾取且售出																						
