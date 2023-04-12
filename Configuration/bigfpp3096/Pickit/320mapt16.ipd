@@ -348,4 +348,20 @@
 //	[Type] == "Agate Amulet" && [Rarity] == "Unique" # [chance_to_grant_nearby_enemies_unholy_might_on_kill_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//心靈抽取 瑪瑙護身符																							
 //	[Type] == "Agate Amulet" && [Rarity] == "Unique" # [local_display_aura_mana_regeneration_rate_+%] >= "1" &&	[ForceSellItem]	 == "true" // 		//塑界者之籽 瑪瑙護身符																							
 //	[Type] == "Agate Amulet" && [Rarity] == "Unique" # [max_power_charges] >= "1" && 	[ForceSellItem]	 == "true" // 		//艾拉黛絲 瑪瑙護身符																							
-																	
+
+//3.21 新物品清單
+[Type] == "Igneous Geode" # [StashItem] == "true" // 火成晶洞
+[Type] == "Crystalline Geode" # [StashItem] == "true" // 水晶晶洞
+[Type] == "Magmatic Ore" # [StashItem] == "true" // 岩漿礦
+ 
+[Type] == "Brother's Gift" # [StashItem] == "true" // 兄弟之贈 有價
+[Type] == "Soul Quenched" # [StashItem] == "true" // 靈魂安息 
+[Type] == "Poisoned Faith" # [StashItem] == "true" // 有毒信仰 初期有價
+[Type] == "A Chilling Wind" # [StashItem] == "true" // 凜冽之風 
+[Type] == "Matryoshka" # [StashItem] == "true" // 俄羅斯娃娃 有價
+
+[Type] == "Xoph's Flawless Breachstone" # [StashItem] == "true" // 索伏的無暇裂痕石
+[Type] == "Tul's Flawless Breachstone" # [StashItem] == "true" // 托沃的無暇裂痕石
+[Type] == "Esh's Flawless Breachstone" # [StashItem] == "true" // 艾許的無暇裂痕石
+[Type] == "Uul-Netol's Flawless Breachstone" # [StashItem] == "true" // 烏爾尼多的無暇裂痕石
+[Type] == "Chayula's Flawless Breachstone" # [StashItem] == "true" // 夏烏拉的無暇裂痕石
