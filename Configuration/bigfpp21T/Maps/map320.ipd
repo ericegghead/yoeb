@@ -265,8 +265,8 @@
 //輿圖重骰，或避打
 
 // REROLL magic maps with Alteration
-//[map_monsters_reflect_%_elemental_damage] 	            >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Mirrored -- Monsters Reflect % Elemental Damage
-[map_monsters_reflect_%_physical_damage] 	            >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Punishing -- Monsters Reflect % Physical Damage
+[map_monsters_reflect_%_elemental_damage] 	            >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Mirrored -- Monsters Reflect % Elemental Damage
+//[map_monsters_reflect_%_physical_damage] 	            >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Punishing -- Monsters Reflect % Physical Damage
 [map_players_no_regeneration_including_es] 	            >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Statis -- Players have no Life or Mana Regeneration
 //[map_player_has_level_X_temporal_chains]                >= "1" && [Rarity] == "Magic" # [RerollMods] == "true"//玩家受到時空鎖鍊詛咒影響
 [map_player_has_level_X_vulnerability]                  >= "1" && [Rarity] == "Magic" # [RerollMods] == "true"//玩家受到脆弱詛咒
@@ -319,8 +319,8 @@
 
 // IGNORE rare maps
 // REROLL Rare maps with Alteration
-//[map_monsters_reflect_%_elemental_damage] 	            >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Mirrored -- Monsters Reflect % Elemental Damage
-[map_monsters_reflect_%_physical_damage] 	            >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Punishing -- Monsters Reflect % Physical Damage
+[map_monsters_reflect_%_elemental_damage] 	            >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Mirrored -- Monsters Reflect % Elemental Damage
+//[map_monsters_reflect_%_physical_damage] 	            >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Punishing -- Monsters Reflect % Physical Damage
 [map_players_no_regeneration_including_es] 	            >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Statis -- Players have no Life or Mana Regeneration
 //[map_player_has_level_X_temporal_chains]                >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true"//玩家受到時空鎖鍊詛咒影響
 [map_player_has_level_X_vulnerability]                  >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true"//玩家受到脆弱詛咒
