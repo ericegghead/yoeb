@@ -2,7 +2,6 @@
 
 //3.20 12/11 開啟大量有價物品版本//
 
-[Type] == "Convoking Wand"  # 	[StashItem]	 == "true"
 
 //3.20 1/15 新增虛誕鑰匙
 
