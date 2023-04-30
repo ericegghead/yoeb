@@ -386,4 +386,4 @@
 [Type] == "Uul-Netol's Flawless Breachstone" # [StashItem] == "true" // 烏爾尼多的無暇裂痕石
 [Type] == "Chayula's Flawless Breachstone" # [StashItem] == "true" // 夏烏拉的無暇裂痕石
 
-[Type] =="Divine Vessel" #	[StashItem]	 == "true"	//	//眾神聖器	拾取
+//[Type] =="Divine Vessel" #	[StashItem]	 == "true"	//	//眾神聖器	拾取
