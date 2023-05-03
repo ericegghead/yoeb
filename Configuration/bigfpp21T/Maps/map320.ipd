@@ -14,12 +14,14 @@
 
 //雙控要打的
 
-//[Type]=="Defiled Cathedral Map" # [IgnoreMap] =="true" //不潔教堂
-//[Type]=="Wharf Map" # [IgnoreMap] =="true" //毒牙海港
+//[Type]=="Cemetery Map" # [IgnoreMap] =="true" //晨曦墓地
+//[Type]=="Arcade Map" # [IgnoreMap] =="true" //崩壞長廊
 //[Type]=="Crimson Temple Map" # [IgnoreMap] =="true" //緋紅神殿
 //[Type]=="Sulphur Vents Map" # [IgnoreMap] =="true" //硫磺蝕岸
 
 //  不打的
+[Type]=="Defiled Cathedral Map" # [IgnoreMap] =="true" //不潔教堂
+[Type]=="Wharf Map" # [IgnoreMap] =="true" //毒牙海港
 [Type]=="Strand Map" # [IgnoreMap] =="true" //致命岩灘
 [Type]=="Haunted Mansion Map" # [IgnoreMap] =="true" //幽魂宅邸
 [Type]=="Crater Map" # [IgnoreMap] =="true" //殘破殞坑
