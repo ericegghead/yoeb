@@ -28,11 +28,9 @@
 [Type]=="Shore Map" # [IgnoreMap] =="true" //暮光海灘
 [Type]=="Canyon Map" # [IgnoreMap] =="true" //炙陽峽谷
 [Type]=="Grotto Map" # [IgnoreMap] =="true" //幽暗地穴
-[Type]=="Cemetery Map" # [IgnoreMap] =="true" //晨曦墓地
 [Type]=="Coves Map" # [IgnoreMap] =="true" //疾風峽灣
 [Type]=="Promenade Map" # [IgnoreMap] =="true" //月色迴廊
 [Type]=="City Square Map" # [IgnoreMap] =="true" //危城廣場
-[Type]=="Arcade Map" # [IgnoreMap] =="true" //崩壞長廊
 [Type]=="Lookout Map" # [IgnoreMap] =="true" //如履危牆
 [Type]=="Beach Map" # [IgnoreMap] =="true" //白沙灘頭
 [Type]=="Graveyard Map" # [IgnoreMap] =="true" //墮影墓場
