@@ -19,6 +19,11 @@
 //[Type]=="Crimson Temple Map" # [IgnoreMap] =="true" //緋紅神殿
 //[Type]=="Sulphur Vents Map" # [IgnoreMap] =="true" //硫磺蝕岸
 
+[Type] == "Crimson Temple Map" 		# [ExitAfterBossKill] == "true"
+[Type] == "Sulphur Vents Map" 		# [ExitAfterBossKill] == "true"
+[Type] == "Cemetery Map" 		# [ExitAfterBossKill] == "true"
+[Type] == "Arcade Map" 		# [ExitAfterBossKill] == "true"
+
 //  不打的
 [Type]=="Defiled Cathedral Map" # [IgnoreMap] =="true" //不潔教堂
 [Type]=="Wharf Map" # [IgnoreMap] =="true" //毒牙海港
