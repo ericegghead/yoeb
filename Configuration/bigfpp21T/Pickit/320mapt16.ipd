@@ -280,8 +280,8 @@
 //	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [lose_power_charge_each_second_if_not_detonated_mines_recently] >= "1" && 	[ForceSellItem]	 == "true" // 		//詭計魔手 暗殺者護手																							
 //	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [local_display_socketed_gems_get_added_lightning_damage_level] >= "1" && 	[ForceSellItem]	 == "true" // 		//轟天雷 暗殺者護手																							
 	//帝王的戒心=1.5D																											
-	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # [keystone_glancing_blows] >= "1" && 	[ForceSellItem]	 == "true" // 		帝王戒心																							
+//	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # [keystone_glancing_blows] >= "1" && 	[ForceSellItem]	 == "true" // 		帝王戒心																							
 //	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # [keystone_corrupted_defences] >= "1" && 	[ForceSellItem]	 == "true" // 		瑪哈薩多																							
 	//歐喙=1.5D																											
 //	[Type] == "Raven Mask" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 		//鷗喙 禍鴉之面
@@ -310,7 +310,7 @@
 	[Type]== "Onyx Amulet" && [Rarity] == "Unique" # [StashItem] == "true" // Astramentis / Carnage Heart / Hinekora's Sight / Impresense / Yoke of Suffering / Presence of Chayula				//夏烏拉之印 黑曜護身符	拾取且存倉
 
 //暗雷																											
-	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//冰冷之眼																											
 //	[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_cold] >= "1" && 	[StashItem]	 == "true" // 																									
 
