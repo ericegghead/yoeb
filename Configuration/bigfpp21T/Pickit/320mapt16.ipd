@@ -350,6 +350,7 @@
 //	 [Type] == "Amethyst Flask" # 	[StashItem]	 == "true" 	//	//紫晶藥劑	
 //	 [Type] == "Diamond Flask" # 	[StashItem]	 == "true" 	//	//寶鑽藥劑																							
 //	 [Type] == "Granite Flask" # 	[StashItem]	 == "true" 	//	//堅岩藥劑
+	 [Type] == "Silver Flask" # 	[StashItem]	 == "true" 	//	//真銀藥劑
 
 //回血套	永生已經寫在皮革那邊了																											
 
