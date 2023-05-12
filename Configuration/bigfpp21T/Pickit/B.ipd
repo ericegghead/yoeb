@@ -14,8 +14,8 @@
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Sulphur Vents Map" && [Rarity] == "Normal"  #[ForceSellItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Sulphur Vents Map" && [Rarity] == "Magic"  #[ForceSellItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Sulphur Vents Map" && [Rarity] == "Rare"  #[ForceSellItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
-[Category] == "Map" && [MapTier] >= "16" && [Type] == "Cemetery Map" && [Rarity] == "Normal"  #[ForceSellItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
-[Category] == "Map" && [MapTier] >= "16" && [Type] == "Cemetery Map" && [Rarity] == "Magic"  #[ForceSellItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Cemetery Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Cemetery Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Cemetery Map" && [Rarity] == "Rare"  #[ForceSellItemm] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Arcade Map" && [Rarity] == "Normal"  #[ForceSellItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Arcade Map" && [Rarity] == "Magic"  #[ForceSellItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
