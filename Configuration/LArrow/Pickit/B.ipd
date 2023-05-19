@@ -8,9 +8,9 @@
 [Type] =="Incandescent Invitation" # [StashItem] == "true" ////熾熱之邀拾取且存倉
 [Type] == "The Apothecary" # [StashItem] == "true"////(魔血 5/5)拾取且存倉
 
-[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Normal"  #[ForceSellItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
-[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Magic"  #[ForceSellItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
-[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Rare"  #[ForceSellItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Sulphur Vents Map" && [Rarity] == "Normal"  #[ForceSellItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Sulphur Vents Map" && [Rarity] == "Magic"  #[ForceSellItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Sulphur Vents Map" && [Rarity] == "Rare"  #[ForceSellItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
