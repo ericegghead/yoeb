@@ -31,15 +31,15 @@
 //																												
 //以下A欄別動，不然函數會壞掉喔～改紅綠下拉表單就好，他會自動幫你改																												
 //	// 1F 黃裝鑑定售出																											
-	//搬磚用頭盔	避免知識不夠用	我要賣黃裝或是搬磚																									
-//	//搬磚用胸甲																											
-	//搬磚用護身符																											
-	//搬磚用戒指																											
-	//搬磚用腰帶																											
-	//搬磚用手套																											
-	//磚用鞋子																											
-//	//搬磚用武器																											
-//	//搬磚用盾牌																											
+	[Category] == "Helm"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	頭盔	拾取且售出																						
+	[Category] == "Chest"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	胸甲	拾取且售出																						
+	[Category] == "Amulet"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	護身符	拾取且售出																						
+	[Category] == "Ring"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	戒指	拾取且售出																						
+	[Category] == "Belt"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	腰帶	拾取且售出																						
+	[Category] == "Gloves"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	手套	拾取且售出																						
+	[Category] == "Boots"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999"&& 	[StashItem]	 == "true"	//	鞋子	拾取且售出																						
+//	[Category] == "Weapon"         && [Rarity]         == "Rare" # [DPS] > "999" && 	[StashItem]	 == "true"	//	武器	拾取且售出																						
+//	[Category] == "Shield"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	盾牌	拾取且售出																										
 //	// 2F 基礎通貨																											
 //	// 高級通貨																											
 [Type] == "Divine Orb" # [StashItem] == "true" //	//神聖石		存倉																									
