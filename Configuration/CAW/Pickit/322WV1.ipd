@@ -117,7 +117,7 @@
 [Type] == "Igneous Geode" # [StashItem] == "true" //	//火成晶洞		存倉																									
 [Type] == "Crystalline Geode" # [StashItem] == "true" //	//水晶晶洞		存倉																									
 [Type] == "Magmatic Ore" # [StashItem] == "true" //	//岩漿礦		存倉																									
-//此通貨不撿	//盜賊之印		賣出																									
+[Type] == "Rogue's Marker" # 	[StashItem]	 == "true"	//	//盜賊之印	拾取																							
 [Type] == "Divine Vessel" 			# [StashItem] == "true"																									
 [Type] == "Silver Coin" # [StashItem] == "true" //	//銀幣		存倉																									
 //	//基拉克記憶																											
