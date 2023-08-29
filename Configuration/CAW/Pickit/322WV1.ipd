@@ -911,8 +911,8 @@
 //	 [Type] == "Sacred Life Flask" # 	[StashItem]	 == "true" 	//	//聖語生命藥劑	不撿不存倉																						
 //	 [Type] == "Hallowed Life Flask" # 	[StashItem]	 == "true" 	//	//祝福生命藥劑	不撿不存倉																						
 //	 [Type] == "Sanctified Life Flask" # 	[StashItem]	 == "true" 	//	//聖化生命藥劑	不撿不存倉																						
-	 [Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//不朽生命藥劑	不撿不存倉																						
-	 [Type] == "Eternal Life Flask" # 	[StashItem]	 == "true" 	//	//永恆生命藥劑	不撿不存倉																						
+//	 [Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//不朽生命藥劑	不撿不存倉																						
+//	 [Type] == "Eternal Life Flask" # 	[StashItem]	 == "true" 	//	//永恆生命藥劑	不撿不存倉																						
 //	 [Type] == "Small Mana Flask" # 	[StashItem]	 == "true" 	//	//小型魔力藥劑	不撿不存倉																						
 //	 [Type] == "Medium Mana Flask" # 	[StashItem]	 == "true" 	//	//中型魔力藥劑	不撿不存倉																						
 //	 [Type] == "Large Mana Flask" # 	[StashItem]	 == "true" 	//	//大型魔力藥劑	不撿不存倉																						
@@ -923,8 +923,8 @@
 //	 [Type] == "Sacred Mana Flask" # 	[StashItem]	 == "true" 	//	//聖語魔力藥劑	不撿不存倉																						
 //	 [Type] == "Hallowed Mana Flask" # 	[StashItem]	 == "true" 	//	//祝福魔力藥劑	不撿不存倉																						
 //	 [Type] == "Sanctified Mana Flask" # 	[StashItem]	 == "true" 	//	//聖化魔力藥劑	不撿不存倉																						
-	 [Type] == "Divine Mana Flask" # 	[StashItem]	 == "true" 	//	//不朽魔力藥劑	不撿不存倉																						
-	 [Type] == "Eternal Mana Flask" # 	[StashItem]	 == "true" 	//	//永恆魔力藥劑	不撿不存倉																						
+//	 [Type] == "Divine Mana Flask" # 	[StashItem]	 == "true" 	//	//不朽魔力藥劑	不撿不存倉																						
+//	 [Type] == "Eternal Mana Flask" # 	[StashItem]	 == "true" 	//	//永恆魔力藥劑	不撿不存倉																						
 //	 [Type] == "Small Hybrid Flask" # 	[StashItem]	 == "true" 	//	//小型複合藥劑	不撿不存倉																						
 //	 [Type] == "Medium Hybrid Flask" # 	[StashItem]	 == "true" 	//	//中型複合藥劑	不撿不存倉																						
 //	 [Type] == "Large Hybrid Flask" # 	[StashItem]	 == "true" 	//	//大型複合藥劑	不撿不存倉																						
