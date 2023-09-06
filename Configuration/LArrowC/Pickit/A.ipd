@@ -896,9 +896,9 @@
 [Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Magic" # [ForceSellItem] =="true"	//魔法六連裝			//																								
 [Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Rare" # [ForceSellItem] =="true"	//稀有六連裝			//																								
 //	// 16F 六洞裝 																											
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal" # [SellUnid] == "true"	//六洞裝		賣出	//																								
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" # [SellUnid] == "true"	//魔法六洞裝			//																								
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare" # [SellUnid] == "true"	//稀有六洞裝			//																								
+[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal" # [ForceSellItem] == "true"	//六洞裝		賣出	//																								
+[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" # [ForceSellItem] == "true"	//魔法六洞裝			//																								
+[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare" # [ForceSellItem] == "true"	//稀有六洞裝			//																								
 //	// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）																											
 //	//獵首		關閉																									
 //	//魔血		關閉																									
@@ -1074,7 +1074,7 @@
 [Type] == "Opal Wand" && [Rarity] == "Unique" # [UniqueName] == "Tulborn" && [StashItem] == "true"	//托沃崩 靈石法杖		存倉																									
 //[Type] == "Opal Wand" && [Rarity] == "Unique" # [UniqueName] == "Replica Tulfall" && [ForceSellItem] == "true"	//贗品．托沃臥 靈石法杖		賣出																									
 //[Type] == "Tornado Wand" && [Rarity] == "Unique" # [UniqueName] == "Shimmeron" && [ForceSellItem] == "true"	//低伏微光 狂風法杖		賣出																									
-[Type] == "Prophecy Wand" && [Rarity] == "Unique" # [UniqueName] == "Void Battery" && [StashItem] == "true"	//潛能魔棒 箴言法杖		存倉																									
+//[Type] == "Prophecy Wand" && [Rarity] == "Unique" # [UniqueName] == "Void Battery" && [StashItem] == "true"	//潛能魔棒 箴言法杖		存倉																									
 	//匕首																											
 //[Type] == "Skinning Knife" && [Rarity] == "Unique" # [UniqueName] == "Goredrill" && [ForceSellItem] == "true"	//血鑿 剝皮刀		賣出																									
 //[Type] == "Stiletto" && [Rarity] == "Unique" # [UniqueName] == "Bloodplay" && [ForceSellItem] == "true"	//血謔 銳利刺匕		賣出																									
@@ -1233,7 +1233,7 @@
 //[Type] == "Ranger Bow" && [Rarity] == "Unique" # [UniqueName] == "Null's Inclination" && [ForceSellItem] == "true"	//虛無之傾 漫遊之弓		賣出																									
 //[Type] == "Ranger Bow" && [Rarity] == "Unique" # [UniqueName] == "Hopeshredder" && [ForceSellItem] == "true"	//破滅之希 漫遊之弓		賣出																									
 //[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Chin Sol" && [ForceSellItem] == "true"	//亂矢之弦 暗殺弓		賣出																									
-[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Darkscorn" && [StashItem] == "true"	//夜吟 暗殺弓		存倉																									
+//[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Darkscorn" && [StashItem] == "true"	//夜吟 暗殺弓		存倉																									
 //[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Arborix" && [ForceSellItem] == "true"	//阿布里斯 暗殺弓		賣出																									
 //[Type] == "Spine Bow" && [Rarity] == "Unique" # [UniqueName] == "Voltaxic Rift" && [ForceSellItem] == "true"	//魔暴之痕 脊弓		賣出																									
 //[Type] == "Spine Bow" && [Rarity] == "Unique" # [UniqueName] == "Reach of the Council" && [ForceSellItem] == "true"	//議會之觸 脊弓		賣出																									
@@ -1265,7 +1265,7 @@
 //[Type] == "Primordial Staff" && [Rarity] == "Unique" # [UniqueName] == "Femurs of the Saints" && [ForceSellItem] == "true"	//聖徒脛骨 史典長杖		賣出																									
 //[Type] == "Lathi" && [Rarity] == "Unique" # [UniqueName] == "The Searing Touch" && [ForceSellItem] == "true"	//熾炎之使 武術長杖		賣出																									
 //[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "Cane of Unravelling" && [ForceSellItem] == "true"	//初惡枝枒 艾茲麥長杖		賣出																									
-[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "Soulwrest" && [StashItem] == "true"	//鑄影 艾茲麥長杖		存倉																									
+//[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "Soulwrest" && [StashItem] == "true"	//鑄影 艾茲麥長杖		存倉																									
 //[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "The Fulcrum" && [ForceSellItem] == "true"	//支點 艾茲麥長杖		賣出																									
 //[Type] == "Maelström Staff" && [Rarity] == "Unique" # [UniqueName] == "Taryn's Shiver" && [ForceSellItem] == "true"	//塔林的顫慄之語 風暴長杖		賣出																									
 //[Type] == "Maelström Staff" && [Rarity] == "Unique" # [UniqueName] == "Duskdawn" && [ForceSellItem] == "true"	//宵曉 風暴長杖		賣出																									
@@ -1431,8 +1431,8 @@
 //[Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Replica Alpha's Howl" && [ForceSellItem] == "true"	//贗品．極地之嗥		賣出																									
 //[Type] == "Lion Pelt" && [Rarity] == "Unique" # [UniqueName] == "Obscurantis" && [ForceSellItem] == "true"	//朦朧詭面		賣出																									
 //[Type] == "Vine Circlet" && [Rarity] == "Unique" # [UniqueName] == "Crown of Thorns" && [ForceSellItem] == "true"	//刺棘之冠		賣出																									
-[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Mark" && [StashItem] == "true"	//安賽娜絲的迅敏之冠		存倉																									
-[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Chant" && [StashItem] == "true"	//安賽娜絲的歌頌		存倉																									
+//[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Mark" && [StashItem] == "true"	//安賽娜絲的迅敏之冠		存倉																									
+//[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Chant" && [StashItem] == "true"	//安賽娜絲的歌頌		存倉																									
 //[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wreath of Phrecia" && [ForceSellItem] == "true"	//費西亞之環		賣出																									
 //[Type] == "Tribal Circlet" && [Rarity] == "Unique" # [UniqueName] == "Mark of the Red Covenant" && [ForceSellItem] == "true"	//焰首支環		賣出																									
 //[Type] == "Bone Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wraithlord" && [ForceSellItem] == "true"	//憤靈郡主		賣出																									
