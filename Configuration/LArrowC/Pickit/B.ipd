@@ -119,7 +119,7 @@
 [Type] == "Magmatic Ore" # [StashItem] == "true" //	//岩漿礦		存倉																									
 //此通貨不撿	//盜賊之印		賣出																									
 //此通貨不撿	//眾神聖器		賣出																									
-[Type] == "Silver Coin" # [StashItem] == "true" //	//銀幣		存倉																									
+[Type] == "Silver Coin" # [ForceSellItem] == "true" //	//銀幣		存倉																									
 //	//基拉克記憶																											
 [Type] == "Singular Scouting Report" # [StashItem] == "true" //	//卓越偵查報告		存倉																									
 [Type] == "Otherworldly Scouting Report" # [StashItem] == "true" //	//超凡偵查報告		存倉																									
