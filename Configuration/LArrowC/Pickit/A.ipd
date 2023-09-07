@@ -852,10 +852,10 @@
 //	// 13F 輿圖																											
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
-[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Rare"  #[ForceSellItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "City Square Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "City Square Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
-[Category] == "Map" && [MapTier] >= "16" && [Type] == "City Square Map" && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "City Square Map" && [Rarity] == "Rare"  #[ForceSellItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Cemetery Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Cemetery Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Cemetery Map" && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
@@ -1709,7 +1709,7 @@
 //[Type] == "Steelscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Tombfist" && [ForceSellItem] == "true"	//陵拳		賣出																									
 //[Type] == "Serpentscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Haemophilia" && [ForceSellItem] == "true"	//逆凝之血		賣出																									
 //[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Wyrmsign" && [ForceSellItem] == "true"	//龍族印記		賣出																									
-[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Tanu Ahi" && [StashItem] == "true"	//埋火		存倉																									
+//[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Tanu Ahi" && [StashItem] == "true"	//埋火		存倉																									
 //[Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Farrul's Pounce" && [ForceSellItem] == "true"	//費爾羅鋒爪		賣出																									
 //[Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Breathstealer" && [StashItem] == "true"	//偷息		存倉																									
 [Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Gravebind" && [StashItem] == "true"	//幽墓束縛		存倉																									
@@ -1743,7 +1743,7 @@
 //[Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [UniqueName] == "Blasphemer's Grasp" && [ForceSellItem] == "true"	//褻瀆者之握		賣出																									
 //[Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [UniqueName] == "Storm's Gift" && [ForceSellItem] == "true"	//風暴之贈		賣出																									
 //[Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [UniqueName] == "Entropic Devastation" && [ForceSellItem] == "true"	//熵毀滅		賣出																									
-//[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && [ForceSellItem] == "true"	//轟天雷		賣出																									
+[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && [StashItem] == "true"	//轟天雷		賣出																									
 //[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Malachai's Mark" && [ForceSellItem] == "true"	//瑪拉凱之面		賣出																									
 //[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Machina Mitts" && [ForceSellItem] == "true"	//詭計魔手		賣出																									
 //[Type] == "Spiked Gloves" && [Rarity] == "Unique" # [UniqueName] == "Ceaseless Feast" && [ForceSellItem] == "true"	//無盡盛宴		賣出																									
@@ -1809,7 +1809,7 @@
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Valyrium" && [ForceSellItem] == "true"	//戰日		賣出																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Timetwist" && [ForceSellItem] == "true"	//時空扭曲		賣出																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Anathema" && [ForceSellItem] == "true"	//咒詛		賣出																									
-[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Death Rush" && [StashItem] == "true"	//亡者呼喚		存倉																									
+//[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Death Rush" && [StashItem] == "true"	//亡者呼喚		存倉																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Ming's Heart" && [ForceSellItem] == "true"	//明恩的慧心		賣出																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Circle of Nostalgia" && [ForceSellItem] == "true"	//懷舊之環		賣出																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Blackflame" && [ForceSellItem] == "true"	//黯炎		賣出																									
@@ -2154,7 +2154,7 @@
 [Type] == "Sea Map" && [Rarity] == "Unique" # [UniqueName] == "Oba's Cursed Trove Underground" && [StashItem] == "true"	//歐霸的咒怨寶庫		存倉																									
 [Type] == "Dunes Map" && [Rarity] == "Unique" # [UniqueName] == "Pillars of Arun" && [StashItem] == "true"	//艾倫之柱		存倉																									
 [Type] == "Dunes Map" && [Rarity] == "Unique" # [UniqueName] == "Replica Pillars of Arun" && [StashItem] == "true"	//贗品．艾倫之柱		存倉																									
-[Type] == "Crypt Map" && [Rarity] == "Unique" # [UniqueName] == "Olmec's Sanctum Bone" && [StashItem] == "true"	//遠古之印		存倉																									
+[Type] == "Crypt Map" && [Rarity] == "Unique" # [UniqueName] == "Olmec's Sanctum Bone" && [ForceSellItem] == "true"	//遠古之印		存倉																									
 [Type] == "River Map" && [Rarity] == "Unique" # [UniqueName] == "Caer Blaidd, Wolfpack's Den Underground" && [StashItem] == "true"	//塞爾．佈雷德狼穴		存倉																									
 [Type] == "Pyramid Map" && [Rarity] == "Unique" # [UniqueName] == "Vaults of Atziri Vaal" && [StashItem] == "true"	//阿茲里的秘寶庫		存倉																									
 [Type] == "Courtyard Map" && [Rarity] == "Unique" # [UniqueName] == "The Vinktar Square" && [StashItem] == "true"	//維克塔廣場		存倉																									
