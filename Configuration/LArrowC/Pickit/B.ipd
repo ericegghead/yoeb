@@ -1171,7 +1171,7 @@
 //[Type] == "Estoc" && [Rarity] == "Unique" # [UniqueName] == "Daresso's Passion" && [ForceSellItem] == "true"	//德瑞索的熱情 穿甲刺劍		賣出																									
 //[Type] == "Vaal Rapier" && [Rarity] == "Unique" # [UniqueName] == "Paradoxica" && [ForceSellItem] == "true"	//矛盾對決 瓦爾細劍		賣出																									
 //[Type] == "Vaal Rapier" && [Rarity] == "Unique" # [UniqueName] == "Replica Paradoxica" && [ForceSellItem] == "true"	//贗品．矛盾對決 瓦爾細劍		賣出																									
-[Type] == "Jewelled Foil" && [Rarity] == "Unique" # [UniqueName] == "Cospri's Malice" && [StashItem] == "true"	//卡斯普里的怨恨 寶飾細劍		存倉																									
+//[Type] == "Jewelled Foil" && [Rarity] == "Unique" # [UniqueName] == "Cospri's Malice" && [StashItem] == "true"	//卡斯普里的怨恨 寶飾細劍		存倉																									
 	//單手錘																											
 //[Type] == "Spiked Club" && [Rarity] == "Unique" # [UniqueName] == "Gorebreaker" && [ForceSellItem] == "true"	//血裂 鈍釘木棒		賣出																									
 //[Type] == "War Hammer" && [Rarity] == "Unique" # [UniqueName] == "Brightbeak" && [ForceSellItem] == "true"	//光耀之錘 戰錘		賣出																									
@@ -1535,7 +1535,7 @@
 //[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "The Snowblind Grace" && [ForceSellItem] == "true"	//雪盲恩惠		賣出																									
 //[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "The Perfect Form" && [ForceSellItem] == "true"	//完美姿態		賣出																									
 //[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "Replica Perfect Form" && [ForceSellItem] == "true"	//贗品．完美姿態		賣出																									
-[Type] == "Assassin's Garb" && [Rarity] == "Unique" # [UniqueName] == "Cospri's Will" && [StashItem] == "true"	//卡斯普里意志		賣出																									
+//[Type] == "Assassin's Garb" && [Rarity] == "Unique" # [UniqueName] == "Cospri's Will" && [StashItem] == "true"	//卡斯普里意志		賣出																									
 //[Type] == "Simple Robe" && [Rarity] == "Unique" # [UniqueName] == "Thousand Ribbons" && [ForceSellItem] == "true"	//千縷		賣出																									
 [Type] == "Simple Robe" && [Rarity] == "Unique" # [UniqueName] == "Skin of the Loyal" && [StashItem] == "true"	//忠誠之膚		存倉																									
 //[Type] == "Simple Robe" && [Rarity] == "Unique" # [UniqueName] == "Skin of the Lords" && [ForceSellItem] == "true"	//君主之膚		賣出																									
@@ -1543,14 +1543,14 @@
 //[Type] == "Scholar's Robe" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Flame" && [ForceSellItem] == "true"	//烈炎之袍		賣出																									
 //[Type] == "Sage's Robe" && [Rarity] == "Unique" # [UniqueName] == "Zahndethus' Cassock" && [ForceSellItem] == "true"	//札德圖斯的聖衣		賣出																									
 //[Type] == "Sage's Robe" && [Rarity] == "Unique" # [UniqueName] == "Dialla's Malefaction" && [ForceSellItem] == "true"	//達拉的罪刑		賣出																									
-[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # [UniqueName] == "The Covenant" && [StashItem] == "true"	//血誓		存倉																									
+//[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # [UniqueName] == "The Covenant" && [StashItem] == "true"	//血誓		存倉																									
 //[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # [UniqueName] == "Soul Mantle" && [ForceSellItem] == "true"	//祖靈之約		賣出																									
 //[Type] == "Destroyer Regalia" && [Rarity] == "Unique" # [UniqueName] == "The Coming Calamity" && [ForceSellItem] == "true"	//災難臨頭		賣出																									
 //[Type] == "Savant's Robe" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Tawm'r Isley" && [ForceSellItem] == "true"	//陶米兒艾斯理之袍		賣出																									
 //[Type] == "Savant's Robe" && [Rarity] == "Unique" # [UniqueName] == "Garb of the Ephemeral" && [ForceSellItem] == "true"	//無常禮袍		賣出																									
 //[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [UniqueName] == "Vis Mortis" && [ForceSellItem] == "true"	//兀鳴		賣出																									
 //[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [UniqueName] == "Fleshcrafter" && [ForceSellItem] == "true"	//人體匠師		賣出																									
-[Type] == "Occultist's Vestment" && [Rarity] == "Unique" # [UniqueName] == "Shavronne's Wrappings" && [StashItem] == "true"	//薛朗的護身長袍		存倉																									
+//[Type] == "Occultist's Vestment" && [Rarity] == "Unique" # [UniqueName] == "Shavronne's Wrappings" && [StashItem] == "true"	//薛朗的護身長袍		存倉																									
 //[Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [UniqueName] == "Infernal Mantle" && [ForceSellItem] == "true"	//煉獄之心		賣出																									
 //[Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [UniqueName] == "Doedre's Skin" && [ForceSellItem] == "true"	//德瑞之膚		賣出																									
 //[Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [UniqueName] == "Fenumus' Shroud" && [ForceSellItem] == "true"	//菲恩絲魘甲		賣出																									
@@ -1612,7 +1612,7 @@
 //[Type] == "Titan Greaves" && [Rarity] == "Unique" # [UniqueName] == "The Red Trail" && [ForceSellItem] == "true"	//赤紅蹤跡		賣出																									
 //[Type] == "Titan Greaves" && [Rarity] == "Unique" # [UniqueName] == "Doryani's Delusion" && [ForceSellItem] == "true"	//多里亞尼的幻想		賣出																									
 //[Type] == "Titan Greaves" && [Rarity] == "Unique" # [UniqueName] == "Replica Red Trail" && [ForceSellItem] == "true"	//贗品．赤紅蹤跡		賣出																									
-[Type] == "Rawhide Boots" && [Rarity] == "Unique" # [UniqueName] == "Seven-League Step" && [StashItem] == "true"	//盟誓之跡		存倉																									
+//[Type] == "Rawhide Boots" && [Rarity] == "Unique" # [UniqueName] == "Seven-League Step" && [StashItem] == "true"	//盟誓之跡		存倉																									
 //[Type] == "Goathide Boots" && [Rarity] == "Unique" # [UniqueName] == "Victario's Flight" && [ForceSellItem] == "true"	//維多里奧的飛昇		賣出																									
 //[Type] == "Goathide Boots" && [Rarity] == "Unique" # [UniqueName] == "Abberath's Hooves" && [ForceSellItem] == "true"	//艾貝拉斯之蹄		賣出																									
 //[Type] == "Deerskin Boots" && [Rarity] == "Unique" # [UniqueName] == "Deerstalker" && [ForceSellItem] == "true"	//獵蹤		賣出																									
