@@ -17,7 +17,7 @@
 //[Type]=="Cemetery Map" # [IgnoreMap] =="true" //晨曦墓地
 //[Type]=="Leyline Map" # [IgnoreMap] =="true" //崩壞長廊
 //[Type]=="Crimson Temple Map" # [IgnoreMap] =="true" //緋紅神殿
-//[Type]=="City Square Map" # [IgnoreMap] =="true" //硫磺蝕岸
+//[Type]=="City Square Map" # [IgnoreMap] =="true" //危城廣場
 
 [Type] == "Crimson Temple Map" 		# [ExitAfterBossKill] == "true"
 //[Type] == "City Square Map" 		# [ExitAfterBossKill] == "true"
