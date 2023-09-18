@@ -2178,7 +2178,7 @@
 [Type] == "Harbinger Map" && [Rarity] == "Unique" # [UniqueName] == "Infused Beachhead" && [StashItem] == "true"	//神域之殿．煉獄		存倉																									
 	//22F																											
 	//3.22新物品																											
-[Type] == "Forbidden Tome" # [StashItem] == "true" //	//禁忌之書
+//[Type] == "Forbidden Tome" # [StashItem] == "true" //	//禁忌之書
 [Type] == "Ahuana's Bite Sharktooth Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//阿華納之咬 鯊齒箭袋		存倉																									
 [Type] == "Akoya's Gaze Regicide Mask" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//阿蔻雅的凝視 噬君之面		存倉																									
 [Type] == "Bound Fate Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//命運繫帶 飾布腰帶		存倉																									
