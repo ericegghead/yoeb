@@ -56,11 +56,11 @@
 //[Type] == "Orb of Transmutation" # [StashItem] == "true" //	//蛻變石		存倉																									
 //[Type] == "Orb of Augmentation" # [StashItem] == "true" //	//增幅石		存倉																									
 //[Type] == "Orb of Chance" # [StashItem] == "true" //	//機會石		存倉																									
-[Type] == "Orb of Fusing" # [StashItem] == "true" //	//鏈結石		存倉																									
+//[Type] == "Orb of Fusing" # [StashItem] == "true" //	//鏈結石		存倉																									
 //[Type] == "Orb of Regret" # [StashItem] == "true" //	//後悔石		存倉																									
 //[Type] == "Orb of Scouring" # [StashItem] == "true" //	//重鑄石		存倉																									
 [Type] == "Regal Orb" # [StashItem] == "true" //	//富豪石		存倉																									
-[Type] == "Vaal Orb" # [StashItem] == "true" //	//瓦爾寶珠		存倉																									
+//[Type] == "Vaal Orb" # [StashItem] == "true" //	//瓦爾寶珠		存倉																									
 //[Type] == "Cartographer's Chisel" # [StashItem] == "true" //	//製圖釘		存倉																									
 [Type] == "Orb of Horizons" # [StashItem] == "true" //	//地平石		存倉																									
 [Type] == "Harbinger's Orb" # [StashItem] == "true" //	//神諭石		存倉																									
@@ -78,8 +78,8 @@
 //此通貨不撿	//改造石碎片		賣出																									
 //此通貨不撿	//卷軸碎片		賣出																									
 //此通貨不撿	//蛻變石碎片		賣出																									
-[Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石		存倉																									
-[Type] == "Enkindling Orb" # [StashItem] == "true" //	//點燃石		存倉																									
+//[Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石		存倉																									
+//[Type] == "Enkindling Orb" # [StashItem] == "true" //	//點燃石		存倉																									
 [Type] == "Annulment Shard" # [StashItem] == "true" //	//無效石碎片		存倉																									
 //此通貨不撿	//束縛石碎片		賣出																									
 //此通貨不撿	//地平石碎片		賣出																									
@@ -135,11 +135,11 @@
 [Type] == "Exceptional Eldritch Ember" # [StashItem] == "true" //	//宏偉異能灰燼		存倉																									
 [Type] == "Grand Eldritch Ember" # [StashItem] == "true" //	//卓越異能灰燼		存倉																									
 [Type] == "Greater Eldritch Ember" # [StashItem] == "true" //	//高階異能灰燼		存倉																									
-[Type] == "Lesser Eldritch Ember" # [StashItem] == "true" //	//低階異能灰燼		存倉																									
+//[Type] == "Lesser Eldritch Ember" # [StashItem] == "true" //	//低階異能灰燼		存倉																									
 [Type] == "Exceptional Eldritch Ichor" # [StashItem] == "true" //	//宏偉異能靈液		存倉																									
 [Type] == "Grand Eldritch Ichor" # [StashItem] == "true" //	//卓越異能靈液		存倉																									
 [Type] == "Greater Eldritch Ichor" # [StashItem] == "true" //	//高階異能靈液		存倉																									
-[Type] == "Lesser Eldritch Ichor" # [StashItem] == "true" //	//低階異能靈液		存倉																									
+//[Type] == "Lesser Eldritch Ichor" # [StashItem] == "true" //	//低階異能靈液		存倉																									
 [Type] == "Eldritch Exalted Orb" # [StashItem] == "true" //	//異能崇高石		存倉																									
 [Type] == "Eldritch Orb of Annulment" # [StashItem] == "true" //	//異能無效石		存倉																									
 [Type] == "Eldritch Chaos Orb" # [StashItem] == "true" //	//異能混沌石		存倉																									
