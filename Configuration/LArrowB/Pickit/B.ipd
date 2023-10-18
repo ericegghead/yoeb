@@ -1237,7 +1237,7 @@
 //[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Arborix" && [ForceSellItem] == "true"	//阿布里斯 暗殺弓		賣出																									
 [Type] == "Spine Bow" && [Rarity] == "Unique" # [UniqueName] == "Voltaxic Rift" && [StashItem] == "true"	//魔暴之痕 脊弓		賣出																									
 //[Type] == "Spine Bow" && [Rarity] == "Unique" # [UniqueName] == "Reach of the Council" && [ForceSellItem] == "true"	//議會之觸 脊弓		賣出																									
-//[Type] == "Imperial Bow" && [Rarity] == "Unique" # [UniqueName] == "Lioneye's Glare" && [ForceSellItem] == "true"	//獅眼的戰弓 帝國之弓		賣出																									
+[Type] == "Imperial Bow" && [Rarity] == "Unique" # [UniqueName] == "Lioneye's Glare" && [StashItem] == "true"	//獅眼的戰弓 帝國之弓		賣出																									
 //[Type] == "Imperial Bow" && [Rarity] == "Unique" # [UniqueName] == "Windripper" && [ForceSellItem] == "true"	//裂風 帝國之弓		賣出																									
 //[Type] == "Imperial Bow" && [Rarity] == "Unique" # [UniqueName] == "Replica Windripper" && [ForceSellItem] == "true"	//贗品．裂風 帝國之弓		賣出																									
 //[Type] == "Harbinger Bow" && [Rarity] == "Unique" # [UniqueName] == "Nuro's Harp" && [ForceSellItem] == "true"	//努羅的豎琴 先驅者之弓		賣出																									
@@ -1419,7 +1419,7 @@
 //[Type] == "Penance Eternal Burgonet" && [Rarity] == "Unique" # [UniqueName] == "Usurper's" && [ForceSellItem] == "true"	//篡位者的懺悔		賣出																									
 //[Type] == "Leather Cap" && [Rarity] == "Unique" # [UniqueName] == "Goldrim" && [ForceSellItem] == "true"	//金縷帽		賣出																									
 //[Type] == "Tricorne Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Fairgraves'" && [ForceSellItem] == "true"	//費爾之帽		賣出																									
-//[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Heatshiver" && [ForceSellItem] == "true"	//寒焰		賣出																									
+[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Heatshiver" && [StashItem] == "true"	//寒焰		賣出																									
 //[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Frostferno" && [ForceSellItem] == "true"	//霜獄		賣出																									
 //[Type] == "Wolf Pelt" && [Rarity] == "Unique" # [UniqueName] == "Elevore" && [ForceSellItem] == "true"	//愛勒弗		賣出																									
 //[Type] == "Ursine Pelt" && [Rarity] == "Unique" # [UniqueName] == "Rat's Nest" && [ForceSellItem] == "true"	//鼠巢		賣出																									
@@ -1602,7 +1602,7 @@
 //[Type] == "Golden Mantle" && [Rarity] == "Unique" # [UniqueName] == "Demigod's Dominance" && [ForceSellItem] == "true"	//昇華統御		賣出																									
 	//鞋子																											
 //[Type] == "Plated Greaves" && [Rarity] == "Unique" # [UniqueName] == "Stormcharger" && [ForceSellItem] == "true"	//暴充		賣出																									
-//[Type] == "Reinforced Greaves" && [Rarity] == "Unique" # [UniqueName] == "Windscream" && [ForceSellItem] == "true"	//惡風足跡		賣出																									
+[Type] == "Reinforced Greaves" && [Rarity] == "Unique" # [UniqueName] == "Windscream" && [StashItem] == "true"	//惡風足跡		賣出																									
 //[Type] == "Reinforced Greaves" && [Rarity] == "Unique" # [UniqueName] == "Windshriek" && [ForceSellItem] == "true"	//風嘯		賣出																									
 //[Type] == "Antique Greaves" && [Rarity] == "Unique" # [UniqueName] == "Torchoak Step" && [ForceSellItem] == "true"	//火柳之步		賣出																									
 //[Type] == "Ancient Greaves" && [Rarity] == "Unique" # [UniqueName] == "Redblade Tramplers" && [ForceSellItem] == "true"	//紅刃蹂躪靴		賣出																									
@@ -1682,7 +1682,7 @@
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Veruso's Battering Rams" && [ForceSellItem] == "true"	//維盧梭攻城槌		賣出																									
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Craiceann's Pincers" && [ForceSellItem] == "true"	//奎爾珊堅鉗		賣出																									
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Spirit" && [StashItem] == "true"	//岡姆之魂		存倉																									
-//[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hrimsorrow" && [ForceSellItem] == "true"	//冰冷之眼		賣出																									
+[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hrimsorrow" && [StashItem] == "true"	//冰冷之眼		賣出																									
 //[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hrimburn" && [ForceSellItem] == "true"	//李姆本		賣出																									
 //[Type] == "Deerskin Gloves" && [Rarity] == "Unique" # [UniqueName] == "Maligaro's Virtuosity" && [ForceSellItem] == "true"	//馬雷葛蘿的血染手套		賣出																									
 //[Type] == "Nubuck Gloves" && [Rarity] == "Unique" # [UniqueName] == "Oskarm" && [ForceSellItem] == "true"	//厄斯根		賣出																									
@@ -1883,7 +1883,7 @@
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Eye of Chayula" && [ForceSellItem] == "true"	//夏烏拉之眼		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hinekora's Sight" && [ForceSellItem] == "true"	//悉妮蔻拉之眼		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Presence of Chayula" && [ForceSellItem] == "true"	//夏烏拉之印		賣出																									
-//[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Yoke of Suffering" && [ForceSellItem] == "true"	//磨難之軛		賣出																									
+[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Yoke of Suffering" && [StashItem] == "true"	//磨難之軛		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Impresence" && [ForceSellItem] == "true"	//不在場證明		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Aul's Uprising" && [ForceSellItem] == "true"	//奧爾的崛起		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Solstice Vigil" && [ForceSellItem] == "true"	//守夜之至		賣出																									
@@ -1933,7 +1933,7 @@
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Replica Bated Breath" && [ForceSellItem] == "true"	//贗品．凝息		賣出																									
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Chain of Endurance" && [ForceSellItem] == "true"	//堅決鎖鏈		賣出																									
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Headhunter" && [StashItem] == "true"	//獵首		存倉																									
-//[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [ForceSellItem] == "true"	//永生		賣出																									
+[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [StashItem] == "true"	//永生		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Wurm's Molt" && [ForceSellItem] == "true"	//龍蛻之帶		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Umbilicus Immortalis" && [ForceSellItem] == "true"	//不朽繫命		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Cyclopean Coil" && [ForceSellItem] == "true"	//巨岩之環		賣出																									
@@ -2030,7 +2030,7 @@
 //[Type] == "Vile Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Maloney's Nightfall" && [ForceSellItem] == "true"	//馬洛尼的暮光		賣出																									
 //[Type] == "Heavy Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Scorpion's Call" && [ForceSellItem] == "true"	//毒蠍之喚		賣出																									
 //[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Voidfletcher" && [ForceSellItem] == "true"	//虛眼箭矢		賣出																									
-//[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"	//優雅迷鏡		賣出																									
+[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"	//優雅迷鏡		賣出																									
 	//赤紅珠寶		存倉																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Inertia" && [StashItem] == "true"	//慣性		存倉																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Inspired Learning" && [StashItem] == "true"	//求知的熱情		存倉																									
