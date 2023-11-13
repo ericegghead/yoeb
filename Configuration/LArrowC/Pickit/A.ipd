@@ -630,7 +630,7 @@
 [Type] == "The Darkest Dream" # [ForceSellItem] == "true" //	惡夢 (6)	5	賣出																									
 [Type] == "The Dreamer" # [ForceSellItem] == "true" //	夢想家 (6)	6	賣出																									
 [Type] == "The Emptiness" # [ForceSellItem] == "true" //	空虛 (6)	10	賣出																									
-[Type] == "The Enlightened" # [ForceSellItem] == "true" //	智慧啟蒙 (6)	45	賣出																									
+[Type] == "The Enlightened" # [StashItem] == "true" //	智慧啟蒙 (6)	45	賣出																									
 [Type] == "The Explorer" # [ForceSellItem] == "true" //	探險家 (6)	3	賣出																									
 [Type] == "The Forgotten Treasure" # [ForceSellItem] == "true" //	被遺忘的寶藏 (6)	7	賣出																									
 [Type] == "The Forward Gaze" # [ForceSellItem] == "true" //	凝視前方 (6)	5	賣出																									
