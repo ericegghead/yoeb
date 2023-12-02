@@ -49,7 +49,7 @@
 [Type] == "Ancient Orb" # [StashItem] == "true" //	//古變石		存倉																									
 [Type] == "Fracturing Orb" # [StashItem] == "true" //	//破裂石		存倉																									
 //	//常用通貨		存倉																									
-//[Type] == "Chaos Orb" # [StashItem] == "true" //	//混沌石		存倉																									
+[Type] == "Chaos Orb" # [StashItem] == "true" //	//混沌石		存倉																									
 //[Type] == "Jeweller's Orb" # [StashItem] == "true" //	//工匠石		存倉																									
 //[Type] == "Orb of Alchemy" # [StashItem] == "true" //	//點金石		存倉																									
 //[Type] == "Orb of Alteration" # [StashItem] == "true" //	//改造石		存倉																									
@@ -630,7 +630,7 @@
 [Type] == "The Darkest Dream" # [ForceSellItem] == "true" //	惡夢 (6)	5	賣出																									
 [Type] == "The Dreamer" # [ForceSellItem] == "true" //	夢想家 (6)	6	賣出																									
 [Type] == "The Emptiness" # [ForceSellItem] == "true" //	空虛 (6)	10	賣出																									
-[Type] == "The Enlightened" # [ForceSellItem] == "true" //	智慧啟蒙 (6)	45	賣出																									
+[Type] == "The Enlightened" # [StashItem] == "true" //	智慧啟蒙 (6)	45	賣出																									
 [Type] == "The Explorer" # [ForceSellItem] == "true" //	探險家 (6)	3	賣出																									
 [Type] == "The Forgotten Treasure" # [ForceSellItem] == "true" //	被遺忘的寶藏 (6)	7	賣出																									
 [Type] == "The Forward Gaze" # [ForceSellItem] == "true" //	凝視前方 (6)	5	賣出																									
@@ -852,16 +852,16 @@
 //	// 13F 輿圖																											
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
-[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Rare"  #[ForceSellItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "City Square Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "City Square Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "City Square Map" && [Rarity] == "Rare"  #[ForceSellItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Cemetery Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Cemetery Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
-[Category] == "Map" && [MapTier] >= "16" && [Type] == "Cemetery Map" && [Rarity] == "Rare"  #[ForceSellItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Cemetery Map" && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Leyline Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Leyline Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
-[Category] == "Map" && [MapTier] >= "16" && [Type] == "Leyline Map" && [Rarity] == "Rare"  #[ForceSellItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Leyline Map" && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
 [Category] == "Map" && [MapTier] >= "1" && [Type] == "Bone Crypt Map" && [Rarity] == "Unique"  #[ForceSellItem] == "true" // //遠古之印賣出
 [Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Unique"  #[ForceSellItem] == "true"
 
@@ -898,7 +898,7 @@
 //	// 16F 六洞裝 																											
 //[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal" # [SellUnid] == "true"	//六洞裝		賣出	//																								
 //[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" # [SellUnid] == "true"	//魔法六洞裝			//																								
-//[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare" # [SellUnid] == "true"	//稀有六洞裝			//																			
+//[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare" # [SellUnid] == "true"	//稀有六洞裝			//																								
 //	// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）																											
 //	//獵首		關閉																									
 //	//魔血		關閉																									
@@ -908,7 +908,7 @@
 //			關閉																									
 //	// 18F 藥水（預設關閉）			//																								
 //					下面這行可以預設物等																							
-//已設定不存倉	//水銀藥劑		賣出		85	85物品等級包含以上賣出																						
+//[Type] == "Quicksilver Flask"&& [ItemLevel] >= "84" && [ItemLevel] <="100" # [StashItem] == "true" //	//水銀藥劑		存倉		85	85物品等級包含以上存倉																						
 //已設定不存倉	//黃金藥劑		賣出		85																							
 //已設定不存倉	//小型生命藥劑		賣出		85																							
 //已設定不存倉	//生命藥劑（中）		賣出		85																							
@@ -942,18 +942,18 @@
 //已設定不存倉	//祝福複合藥劑		賣出		85																							
 //已設定不存倉	//灰岩藥劑		賣出		85																							
 //已設定不存倉	//迷霧藥劑		賣出		85																							
-//已設定不存倉	//紫晶藥劑		賣出		85																							
+//[Type] == "Amethyst Flask"&& [ItemLevel] >= "84" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		85																							
 //已設定不存倉	//紅玉藥劑		賣出		85																							
 //已設定不存倉	//藍玉藥劑		賣出		85																							
 //已設定不存倉	//黃玉藥劑		賣出		85																							
-//已設定不存倉	//真銀藥劑		賣出		85																							
+//[Type] == "Silver Flask"&& [ItemLevel] >= "84" && [ItemLevel] <="100" # [StashItem] == "true" //	//真銀藥劑		存倉		85																							
 //已設定不存倉	//海藍藥劑		賣出		85																							
-//已設定不存倉	//寶鑽藥劑		賣出		85																							
+//[Type] == "Diamond Flask"&& [ItemLevel] >= "84" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		85																							
 //已設定不存倉	//堅岩藥劑		賣出		85																							
 //已設定不存倉	//翠玉藥劑		賣出		85																							
 //已設定不存倉	//石英藥劑		賣出		85																							
 //已設定不存倉	//硫磺藥劑		賣出		85																							
-//已設定不存倉	//石化藥劑		賣出		85																							
+//已設定不存倉	//石化藥劑		賣出		85																								
 //	// 19F 聖甲蟲																											
 //[Type] == "Rusted Ambush Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕伏擊		存倉																									
 //[Type] == "Polished Ambush Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑伏擊		存倉																									
@@ -1532,7 +1532,7 @@
 //[Type] == "Destiny Leather" && [Rarity] == "Unique" # [UniqueName] == "Queen of the Forest" && [ForceSellItem] == "true"	//森林之后		賣出																									
 //[Type] == "Exquisite Leather" && [Rarity] == "Unique" # [UniqueName] == "Kintsugi" && [ForceSellItem] == "true"	//金繕		賣出																									
 //[Type] == "Exquisite Leather" && [Rarity] == "Unique" # [UniqueName] == "Yriel's Fostering" && [ForceSellItem] == "true"	//伊瑞的栽培		賣出																									
-//[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Ire" && [StashItem] == "true"	//西里的戰衣		賣出																									
+[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Ire" && [StashItem] == "true"	//西里的戰衣		賣出																									
 //[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "The Snowblind Grace" && [ForceSellItem] == "true"	//雪盲恩惠		賣出																									
 //[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "The Perfect Form" && [ForceSellItem] == "true"	//完美姿態		賣出																									
 //[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "Replica Perfect Form" && [ForceSellItem] == "true"	//贗品．完美姿態		賣出																									
@@ -1816,7 +1816,7 @@
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Original Sin" && [ForceSellItem] == "true"	//原罪		賣出																									
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Gifts from Above" && [StashItem] == "true"	//神賜		存倉																									
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Romira's Banquet" && [ForceSellItem] == "true"	//羅米拉的潛力之環		賣出																									
-//[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && [StashItem] == "true"	//貝雷克的火與雷之樂		存倉																									
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && [StashItem] == "true"	//貝雷克的火與雷之樂		存倉																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [StashItem] == "true"	//貝雷克的冰與雷之曲		賣出																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Call of the Brotherhood" && [ForceSellItem] == "true"	//意志呼喚		賣出																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [StashItem] == "true"	//貝雷克的冰與火之歌		賣出																									
