@@ -19,7 +19,7 @@
 
 
 [Type] == "Crimson Temple Map" 		# [ExitAfterBossKill] == "true"
-[Type] == "Temple Map" 		# [ExitAfterBossKill] == "true"
+//[Type] == "Temple Map" 		# [ExitAfterBossKill] == "true"
 
 //  不打的
 [Type]=="City Square Map" # [IgnoreMap] =="true" //危城廣場
