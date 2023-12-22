@@ -72,7 +72,7 @@
 //地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖
 
 [Type] == "Crimson Temple Map" # [StashItem] == "true" //緊急
-[Type] == "Temple Map" # [StashItem] == "true" //緊急
+//[Type] == "Temple Map" # [StashItem] == "true" //緊急
 
 [Type] == "Temple Map" && [Rarity] == "Magic" # [StashItem] == "true" //奪魂之殿
 [Type] == "Crimson Temple Map"&& [Rarity] == "Magic" # [StashItem] == "true" //緋紅神殿
