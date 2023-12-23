@@ -71,14 +71,12 @@
 
 //地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖
 
-//[Type] == "Crimson Temple Map" # [StashItem] == "true" //緊急
-//[Type] == "Temple Map" # [StashItem] == "true" //緊急
-
-[Type] == "Temple Map" && [Rarity] == "Magic" # [StashItem] == "true" //奪魂之殿
-[Type] == "Crimson Temple Map"&& [Rarity] == "Magic" # [StashItem] == "true" //緋紅神殿
-
-[Type] == "Temple Map" && [Rarity] == "Normal" # [StashItem] == "true" //奪魂之殿
-[Type] == "Crimson Temple Map"&& [Rarity] == "Normal" # [StashItem] == "true" //緋紅神殿
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
+//[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Temple Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
+//[Category] == "Map" && [MapTier] >= "16" && [Type] == "Temple Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
+//[Category] == "Map" && [MapTier] >= "16" && [Type] == "Temple Map" && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
 
 //賣圖設定//
 [Type] == "Temple Map" && [MapTier] <= "13" # [ForceSellItem] == "true" //
