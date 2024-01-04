@@ -73,7 +73,7 @@
 
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
-[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
+//[Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Temple Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 //[Category] == "Map" && [MapTier] >= "16" && [Type] == "Temple Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
 //[Category] == "Map" && [MapTier] >= "16" && [Type] == "Temple Map" && [Rarity] == "Rare"  #[ForceSellItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
@@ -102,7 +102,7 @@
 
 //地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖
 
-//卡蘭德之觸
+
 [Type] == "Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 
 [Type] == "Voidborn Reliquary Key" # 	[StashItem]	 == "true" // 虛誕鑰匙
 [Type] == "Valdo's Puzzle Box" # [StashItem] == "true" // 瓦爾多謎盒
@@ -188,6 +188,15 @@
 //[Type] == "Singular Scouting Report" # [StashItem] == "true" //	//卓越偵查報告
 //[Type] == "Otherworldly Scouting Report" # [StashItem] == "true" //	//超凡偵查報告
 //[Type] == "Influenced Scouting Report" # [StashItem] == "true" //	//勢力偵查報告
+
+[Type] == "Exceptional Eldritch Ember" # [StashItem] == "true" //	//宏偉異能灰燼		存倉																									
+[Type] == "Grand Eldritch Ember" # [StashItem] == "true" //	//卓越異能灰燼		存倉																									
+[Type] == "Greater Eldritch Ember" # [StashItem] == "true" //	//高階異能灰燼		存倉																									
+[Type] == "Lesser Eldritch Ember" # [StashItem] == "true" //	//低階異能灰燼		存倉																									
+[Type] == "Exceptional Eldritch Ichor" # [StashItem] == "true" //	//宏偉異能靈液		存倉																									
+[Type] == "Grand Eldritch Ichor" # [StashItem] == "true" //	//卓越異能靈液		存倉																									
+[Type] == "Greater Eldritch Ichor" # [StashItem] == "true" //	//高階異能靈液		存倉																									
+[Type] == "Lesser Eldritch Ichor" # [StashItem] == "true" //	//低階異能靈液		存倉	
 
 //[Type] =="Polaric Invitation" #[StashItem] == "true" ////極地之邀不撿不存倉
 //[Type] =="Writhing Invitation" #[StashItem] == "true" ////纏繞之邀不撿不存倉
