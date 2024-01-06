@@ -19,8 +19,8 @@
 
 //3.22季初防具
 //[Type] == "Necromancer Silks" && [Rarity] == "Unique" #  [UniqueName] == "Fleshcrafter" && [StashItem] == "true"    //人體匠師
-[Type] == "Sadist Garb" && [Rarity] == "Unique" #    [UniqueName] == "Inpulsa's Broken Heart" && [StashItem] == "true" //印卜薩
-[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && [StashItem] == "true"	//轟天雷
+//[Type] == "Sadist Garb" && [Rarity] == "Unique" #    [UniqueName] == "Inpulsa's Broken Heart" && [StashItem] == "true" //印卜薩
+//[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && [StashItem] == "true"	//轟天雷
 //[Type] == "Exquisite Leather" && [Rarity] == "Unique" # [UniqueName] == "Yriel's Fostering" && [StashItem] == "true" // //伊瑞的栽培
 [Type] == "Riveted Boots" && [Rarity] == "Unique" # [UniqueName] == "Ralakesh's Impatience" && [StashItem] == "true"	//芮勒蓋許的急躁
 [Type] == "Carnal Boots" && [Rarity] == "Unique" # [UniqueName] == "Corpsewalker" && [StashItem] == "true"	//行屍走肉
@@ -32,7 +32,7 @@
 [Type] == "Omen of Fortune" # [StashItem] == "true" //	財富之預兆
 
 //3.22季初傳送門
-[Type] == "Portal" #  [StashItem] == "true"//傳送門
+//[Type] == "Portal" #  [StashItem] == "true"//傳送門
 
 //弓箭手套裝//
 [Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Voll's Vision" && [StashItem] == "true"	//福爾的遠見
@@ -41,10 +41,10 @@
 [Type] == "Rawhide Boots" && [Rarity] == "Unique" # [UniqueName] == "Seven-League Step" && [StashItem] == "true"	//盟誓之跡
 //[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Prismweave" && [StashItem] == "true"	//幻彩菱織 腰帶
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && [StashItem] == "true"	//貝雷克的火與雷之樂
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [StashItem] == "true"	//貝雷克的冰與雷之曲
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [StashItem] == "true"	//貝雷克的冰與火之歌
+//[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [StashItem] == "true"	//貝雷克的冰與雷之曲
+//[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [StashItem] == "true"	//貝雷克的冰與火之歌
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Death Rush" && [StashItem] == "true"	//亡者呼喚 紫晶戒指
-[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Truth" && [StashItem] == "true"	//西里的真理
+//[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Truth" && [StashItem] == "true"	//西里的真理
 //[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"	//優雅迷鏡
 
 
@@ -126,7 +126,7 @@
 //下面是3.19以前
 
 [Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉
-[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
+//[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
 [Type] =="Maven's Invitation: The Formed" #	[StashItem]	 == "true" 		//釋界之邀：塑型	拾取且存倉
 [Type] =="Maven's Invitation: The Twisted" #	[StashItem]	 == "true" 		//釋界之邀：扭曲	拾取且存倉
 
@@ -170,14 +170,14 @@
 //季初開啟////季初開啟////季初開啟////季初開啟////季初開啟////季初開啟////季初開啟////季初開啟////季初開啟////季初開啟////季初開啟////季初開啟//
 
 [Type] == "Orb of Alteration" # [StashItem] == "true"////改造石拾取且存倉
-[Type] == "Orb of Regret"# [StashItem] == "true"////後悔石拾取且存倉//
+//[Type] == "Orb of Regret"# [StashItem] == "true"////後悔石拾取且存倉//
 [Type] == "Orb of Unmaking"# [StashItem] == "true"////撤銷石拾取且存倉
 [Type] == "Enkindling Orb"# [StashItem] == "true"////點燃石拾取且存倉
 [Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石
-[Type] == "Orb of Scouring"# [StashItem] == "true"////重鑄 拾取且存倉
+//[Type] == "Orb of Scouring"# [StashItem] == "true"////重鑄 拾取且存倉
 [Type] == "Regal Orb" # [StashItem] == "true"////富豪
-[Type] == "Orb of Horizons"# [StashItem] == "true"////地平石拾取且存倉
-[Type] == "Enhance Support" #[StashItem] == "true"////增幅輔助
+//[Type] == "Orb of Horizons"# [StashItem] == "true"////地平石拾取且存倉
+//[Type] == "Enhance Support" #[StashItem] == "true"////增幅輔助
 //[Type] == "Blacksmith's Whetstone" # [StashItem] == "true" //	//磨刀石
 //[Type] == "Armourer's Scrap" # [StashItem] == "true" //	//護甲片
 //[Type] == "Glassblower's Bauble" # [StashItem] == "true" //	//玻璃彈珠
