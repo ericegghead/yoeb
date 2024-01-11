@@ -176,6 +176,7 @@
 //[Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石
 //[Type] == "Orb of Scouring"# [StashItem] == "true"////重鑄 拾取且存倉
 [Type] == "Regal Orb" # [StashItem] == "true"////富豪
+//[Type] == "Orb of Chance" # [StashItem] == "true"////機會
 //[Type] == "Orb of Horizons"# [StashItem] == "true"////地平石拾取且存倉
 //[Type] == "Enhance Support" #[StashItem] == "true"////增幅輔助
 //[Type] == "Blacksmith's Whetstone" # [StashItem] == "true" //	//磨刀石
@@ -304,13 +305,13 @@
 //[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #[ForceSellItem] == "true" // //傳奇地圖傳奇地圖不撿，傳奇地圖售出
 
 //[Sockets] == "6" && [Linked] >= "6"   #[ForceSellItem] == "true" // //六連全賣																								
-[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Normal" # [SellUnid] =="true"	//普通六連裝			//																								
-[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Magic" # [SellUnid] =="true"	//魔法六連裝			//																								
-[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Rare" # [SellUnid] =="true"	//稀有六連裝			//																								
+//[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Normal" # [SellUnid] =="true"	//普通六連裝			//																								
+//[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Magic" # [SellUnid] =="true"	//魔法六連裝			//																								
+//[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Rare" # [SellUnid] =="true"	//稀有六連裝			//																								
 //	// 16F 六洞裝 																											
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal" # [SellUnid] == "true"	//六洞裝		賣出	//																								
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" # [SellUnid] == "true"	//魔法六洞裝			//																								
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare" # [SellUnid] == "true"	//稀有六洞裝			
+//[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal" # [SellUnid] == "true"	//六洞裝		賣出	//																								
+//[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" # [SellUnid] == "true"	//魔法六洞裝			//																								
+//[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare" # [SellUnid] == "true"	//稀有六洞裝			
 
 	[Type] == "Spiraled Wand" && [Rarity] == "Unique" # [UniqueName] == "Amplification Rod" && [StashItem] == "true"	//增幅杖 螺紋法杖
 	[Type] == "Fishing Rod" && [Rarity] == "Unique" # [UniqueName] == "Song of the Sirens" && [StashItem] == "true"	//海妖魅曲 魚竿
