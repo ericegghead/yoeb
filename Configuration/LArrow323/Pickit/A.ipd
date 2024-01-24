@@ -35,7 +35,7 @@
 //[Type] == "Portal" #  [StashItem] == "true"//傳送門
 
 //弓箭手套裝//
-[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Voll's Vision" && [StashItem] == "true"	//福爾的遠見
+//[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Voll's Vision" && [StashItem] == "true"	//福爾的遠見
 [Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Ire" && [StashItem] == "true"	//西里的戰衣星辰皮甲
 [Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Spirit" && [StashItem] == "true"	//岡姆之魂
 [Type] == "Rawhide Boots" && [Rarity] == "Unique" # [UniqueName] == "Seven-League Step" && [StashItem] == "true"	//盟誓之跡
@@ -76,7 +76,7 @@
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Crimson Temple Map" && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Temple Map" && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "16" && [Type] == "Temple Map" && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
-//[Category] == "Map" && [MapTier] >= "16" && [Type] == "Temple Map" && [Rarity] == "Rare"  #[ForceSellItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
+[Category] == "Map" && [MapTier] >= "16" && [Type] == "Temple Map" && [Rarity] == "Rare"  #[ForceSellItem] == "true" // //黃地圖藍地圖撿取，黃地圖存倉
 
 
 //賣圖設定//
